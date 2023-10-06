@@ -1,4 +1,4 @@
-footer{
+/* footer{
     background-color: #2F303A;
 }
 
@@ -34,5 +34,14 @@ h5 + p{
 
 .hero {
     background-color: #F5F4FA;
+
+} */
+
+:root{
+    --text-color: #212121;
+    --content-color: #757575;
+    --overlay-color: #2196F3;
+    --footer-color: #2F303A;
+    --button-color: #F5F4FA;
 
 }
