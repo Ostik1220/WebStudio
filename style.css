@@ -45,3 +45,7 @@ h5 + p{
     --button-color: #F5F4FA;
 
 }
+
+body{
+    font-family: Roboto Medium;
+}
