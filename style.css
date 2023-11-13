@@ -46,7 +46,99 @@ h5 + p{
 
 }
 
-body {
+ .body{
+    font-family: Roboto;
+}
 
-    font-family: ‘Roboto Medium’;
-};
+.header-logo{
+color:var(--overlay-color);
+font-family: Raleway;
+}
+
+.header-logo-color{
+    color: var(--text-color);
+}
+
+.header-list{
+color:var(--text-color);
+font-family: Roboto;
+}
+
+.header-contact{
+color: var(--content-color);
+font-family: Roboto;
+
+}
+
+.invitation{
+    background: var(--footer-color) ;
+}
+
+.invitation-tytle{
+    color: var(--button-color);
+    font-family: Roboto;
+}
+
+.invitation-button{
+color: var(--button-color);
+background:var(--overlay-color);
+font-family: Roboto;
+}
+
+.features-tytle{
+    color: var(--text-color);
+    font-family: Roboto;
+}
+
+.features-text{
+    color: var(--content-color);
+    font-family: Roboto;
+}
+
+.WhatDoWeDo-tytle{
+    color: var(--text-color);
+}
+
+.OurTeam-tytle{
+    color: var(--text-color);
+}
+
+.OurTeam-teamname{
+    color: var(--text-color);
+}
+
+.OurTeam-text{
+    color: var(--content-color);
+}
+
+.footer{
+    background: var(--footer-color);
+}
+
+.footer-logo{
+    color: var(--overlay-color);
+    font-family: Raleway;
+}
+
+.footer-logo-color{
+    color: var(--button-color);
+}
+
+.footer-address{
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.portfolio-button{
+    color: var(--text-color);
+    background: var(--button-color);
+}
+
+.portfolio-listname{
+    color: var(--text-color);
+}
+
+.portfolio-listtext{
+    color: var(--content-color);
+}
+
+
