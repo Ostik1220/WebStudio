@@ -54,9 +54,7 @@ h5 + p{
 color:var(--overlay-color);
 font-family: Raleway;
 font-size: 26px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
 letter-spacing: 0.78px;
 }
 
@@ -66,7 +64,6 @@ letter-spacing: 0.78px;
 
 .header-link{
 color:var(--text-color);
-font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -74,14 +71,22 @@ line-height: normal;
 letter-spacing: 0.28px;
 }
 
+.header-link:hover {
+    color: var(--overlay-color);
+}
+
+
 .header-contact{
 color: var(--content-color);
-font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
+}
+
+.header-contact:hover{
+    color: var(--overlay-color);
 }
 
 .invitation{
@@ -91,7 +96,6 @@ letter-spacing: 0.28px;
 .invitation-tytle{
 color: var(--button-color);
 text-align: center;
-font-family: Roboto;
 font-size: 44px;
 font-style: normal;
 font-weight: 900;
@@ -103,7 +107,6 @@ text-transform: uppercase;
 .invitation-button{
 color: var(--button-color);
 background:var(--overlay-color);
-font-family: Roboto;
 width: 216px;
 height: 50px;
 flex-shrink: 0;
@@ -111,7 +114,6 @@ flex-shrink: 0;
 
 .features-tytle{
 color: var(--text-color);
-font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 700;
@@ -122,7 +124,6 @@ text-transform: uppercase;
 
 .features-text{
 color: var(--content-color);
-font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -132,7 +133,6 @@ letter-spacing: 0.42px;
 
 .WhatDoWeDo-tytle{
 color: var(--text-color);
-font-family: Roboto;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -142,7 +142,6 @@ letter-spacing: 1.08px;
 
 .OurTeam-tytle{
     color: var(--text-color);
-    font-family: Roboto;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -153,7 +152,6 @@ letter-spacing: 1.08px;
 .OurTeam-teamname{
     color: var(--text-color);
 text-align: center;
-font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -164,7 +162,6 @@ letter-spacing: 0.48px;
 .OurTeam-text{
     color: var(--content-color);
     text-align: center;
-font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -199,12 +196,26 @@ line-height: 24px; /* 171.429% */
 letter-spacing: 0.42px;
 }
 
+.footer-address-special{
+    color: #FFF;  
+font-size: 14px;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
 .portfolio-button{
     color: var(--text-color);
     background: var(--button-color);
-width: 125px;
-height: 38px;
-flex-shrink: 0;
+    font-family: Roboto;
+    width: 125px;
+    height: 38px;
+    flex-shrink: 0;
+}
+
+.portfolio-button:hover {
+ background: var(--overlay-color);
+ color: var(--button-color);
 }
 
 .portfolio-listname{
