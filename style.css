@@ -55,6 +55,7 @@ color:var(--overlay-color);
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
+line-height: 1.3;
 letter-spacing: 0.78px;
 }
 
@@ -65,9 +66,8 @@ letter-spacing: 0.78px;
 .header-link{
 color:var(--text-color);
 font-size: 14px;
-font-style: normal;
 font-weight: 500;
-line-height: normal;
+line-height: 1.1;
 letter-spacing: 0.28px;
 }
 
@@ -79,9 +79,8 @@ letter-spacing: 0.28px;
 .header-contact{
 color: var(--content-color);
 font-size: 14px;
-font-style: normal;
 font-weight: 500;
-line-height: normal;
+line-height: 1.1;
 letter-spacing: 0.28px;
 }
 
@@ -97,9 +96,8 @@ letter-spacing: 0.28px;
 color: var(--button-color);
 text-align: center;
 font-size: 44px;
-font-style: normal;
 font-weight: 900;
-line-height: 60px; /* 136.364% */
+line-height: 1.4;
 letter-spacing: 2.64px;
 text-transform: uppercase;
 }
@@ -109,15 +107,16 @@ color: var(--button-color);
 background:var(--overlay-color);
 width: 216px;
 height: 50px;
+font-size: 16px;
+line-height: 1.9;
 flex-shrink: 0;
 }
 
 .features-tytle{
 color: var(--text-color);
 font-size: 14px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
+line-height: 1.1;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 }
@@ -125,27 +124,24 @@ text-transform: uppercase;
 .features-text{
 color: var(--content-color);
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 171.429% */
+line-height: 1.7;
 letter-spacing: 0.42px;
 }
 
 .WhatDoWeDo-tytle{
 color: var(--text-color);
 font-size: 36px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
+line-height: 1.2;
 letter-spacing: 1.08px;
 }
 
 .OurTeam-tytle{
     color: var(--text-color);
 font-size: 36px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
+line-height: 1.2;
 letter-spacing: 1.08px;
 }
 
@@ -153,9 +149,8 @@ letter-spacing: 1.08px;
     color: var(--text-color);
 text-align: center;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
-line-height: normal;
+line-height: 1.2;
 letter-spacing: 0.48px;
 }
 
@@ -163,9 +158,8 @@ letter-spacing: 0.48px;
     color: var(--content-color);
     text-align: center;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.2;
 letter-spacing: 0.48px;
 }
 
@@ -177,9 +171,8 @@ letter-spacing: 0.48px;
     color: var(--overlay-color);
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.9;
     letter-spacing: 0.78px;
 }
 
@@ -190,9 +183,8 @@ letter-spacing: 0.48px;
 .footer-address{
     color: rgba(255, 255, 255, 0.60);
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 171.429% */
+line-height: 1.7;
 letter-spacing: 0.42px;
 }
 
@@ -200,7 +192,7 @@ letter-spacing: 0.42px;
     color: #FFF;  
 font-size: 14px;
 font-weight: 400;
-line-height: 24px; /* 171.429% */
+line-height: 1.7;
 letter-spacing: 0.42px;
 }
 
@@ -208,6 +200,8 @@ letter-spacing: 0.42px;
     color: var(--text-color);
     background: var(--button-color);
     font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.6;
     width: 125px;
     height: 38px;
     flex-shrink: 0;
@@ -221,18 +215,16 @@ letter-spacing: 0.42px;
 .portfolio-listname{
     color: var(--text-color);
 font-size: 18px;
-font-style: normal;
 font-weight: 700;
-line-height: 36px; /* 200% */
+line-height: 2; 
 letter-spacing: 1.08px;
 }
 
 .portfolio-listtext{
     color: var(--content-color);
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 187.5% */
+line-height: 1.9;
 letter-spacing: 0.48px;
 }
 
