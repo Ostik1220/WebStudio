@@ -191,4 +191,11 @@ line-height: 1.9;
 letter-spacing: 0.48px;
 }
 
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 
