@@ -12,6 +12,20 @@
     font-family: Roboto;
 }
 
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: solid darkblue;
+}
+
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+
 .header-logo{
 color:var(--overlay-color);
 font-family: Raleway;
@@ -52,6 +66,8 @@ letter-spacing: 0.28px;
 
 .invitation{
     background: var(--footer-color) ;
+    padding-bottom: 200px ;
+    padding-top: 200px;
 }
 
 .invitation-tytle{
@@ -74,6 +90,12 @@ line-height: 1.9;
 flex-shrink: 0;
 }
 
+.features{
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
 .features-tytle{
 color: var(--text-color);
 font-size: 14px;
@@ -91,12 +113,21 @@ line-height: 1.7;
 letter-spacing: 0.42px;
 }
 
+.service{
+    padding-bottom: 94px;
+}
+
 .service-tytle{
 color: var(--text-color);
 font-size: 36px;
 font-weight: 700;
 line-height: 1.2;
 letter-spacing: 1.08px;
+}
+
+.team{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team-tytle{
@@ -127,6 +158,8 @@ letter-spacing: 0.48px;
 
 .footer{
     background: var(--footer-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo{
@@ -157,6 +190,11 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.7;
 letter-spacing: 0.42px;
+}
+
+.portfolio{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .portfolio-button{
@@ -191,12 +229,5 @@ line-height: 1.9;
 letter-spacing: 0.48px;
 }
 
-.container{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    outline: solid darkblue;
-}
 
 
