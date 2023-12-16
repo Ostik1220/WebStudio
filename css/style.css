@@ -95,6 +95,8 @@ font-weight: 900;
 line-height: 1.4;
 letter-spacing: 2.64px;
 text-transform: uppercase;
+margin-left: 273px;
+margin-right: 273px;
 }
 
 .invitation-button{
@@ -105,6 +107,8 @@ height: 50px;
 font-size: 16px;
 line-height: 1.9;
 flex-shrink: 0;
+margin-top: 30px;
+margin-left: 477px;
 }
 
 .features{
@@ -124,6 +128,7 @@ font-weight: 700;
 line-height: 1.1;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+margin-bottom: 10px;
 }
 
 .features-text{
@@ -151,6 +156,7 @@ line-height: 1.2;
 letter-spacing: 1.08px;
 display: flex;
 justify-content: center;
+margin-bottom: 50px;
 }
 
 .team{
@@ -177,6 +183,7 @@ line-height: 1.2;
 letter-spacing: 1.08px;
 display: flex;
 justify-content: center;
+margin-bottom: 50px;
 }
 
 .team-teammate{
@@ -239,6 +246,14 @@ letter-spacing: 0.42px;
     padding-bottom: 94px;
 }
 
+.portfolio-buttonlist{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-bottom: 50px;
+    margin-left: 298px;
+}
+
 .portfolio-button{
     color: var(--text-color);
     background: var(--button-color);
@@ -253,6 +268,17 @@ letter-spacing: 0.42px;
 .portfolio-button:hover {
  background: var(--overlay-color);
  color: var(--button-color);
+}
+
+.portfolio-poster{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.portfolio-picture{
+width: 370px;
+height: 294px;
 }
 
 .portfolio-name{
