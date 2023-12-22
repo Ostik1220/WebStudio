@@ -85,7 +85,9 @@ letter-spacing: 0.28px;
     background: var(--footer-color) ;
     padding-bottom: 200px ;
     padding-top: 200px;
+    
 }
+
 
 .invitation-tytle{
 color: var(--button-color);
@@ -99,6 +101,12 @@ margin-left: 273px;
 margin-right: 273px;
 }
 
+.button-container{
+    display: flex;
+    justify-content: center;
+
+}
+
 .invitation-button{
 color: var(--button-color);
 background:var(--overlay-color);
@@ -107,8 +115,6 @@ height: 50px;
 font-size: 16px;
 line-height: 1.9;
 flex-shrink: 0;
-margin-top: 30px;
-margin-left: 477px;
 border: none;
 border-radius: 7px;
 }
@@ -121,6 +127,7 @@ border-radius: 7px;
 
 .features-list{
     display: flex;
+    gap: 30px;
 }
 
 .features-tytle{
@@ -177,6 +184,10 @@ width: 270px;
 height: 260px;
 }
 
+.team-containre{
+    background-color: #FFF;
+}
+
 .team-tytle{
     color: var(--text-color);
 font-size: 36px;
@@ -195,6 +206,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.48px;
+padding-top: 30px;
 }
 
 .team-text{
@@ -204,6 +216,8 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.2;
 letter-spacing: 0.48px;
+padding-top: 10px;
+padding-bottom: 30px;
 }
 
 .footer{
@@ -219,7 +233,10 @@ letter-spacing: 0.48px;
     font-weight: 700;
     line-height: 1.9;
     letter-spacing: 0.78px;
+    padding-bottom: 20px;
 }
+
+
 
 .footer-logo-color{
     color: var(--button-color);
@@ -232,6 +249,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.7;
 letter-spacing: 0.42px;
+padding-top: 9px;
 }
 
 .footer-address-special{
@@ -251,9 +269,9 @@ letter-spacing: 0.42px;
 .portfolio-buttonlist{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 8px;
     margin-bottom: 50px;
-    margin-left: 298px;
 }
 
 .portfolio-button{
@@ -280,26 +298,38 @@ letter-spacing: 0.42px;
     flex-wrap: wrap;
 }
 
+.portfolio-containre{
+    padding-left: 24px;
+
+}
+
 
 .portfolio-picture{
 width: 370px;
 height: 294px;
 }
 
+
 .portfolio-name{
     color: var(--text-color);
+width: 332px;
 font-size: 18px;
 font-weight: 700;
 line-height: 2; 
 letter-spacing: 1.08px;
+padding-bottom: 4px;
+padding-top: 20px;
+
 }
 
 .portfolio-text{
     color: var(--content-color);
+    width: 332px;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.9;
 letter-spacing: 0.48px;
+
 }
 
 
