@@ -99,6 +99,7 @@ letter-spacing: 2.64px;
 text-transform: uppercase;
 margin-left: 273px;
 margin-right: 273px;
+margin-bottom: 30px;
 }
 
 .button-container{
@@ -216,7 +217,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.2;
 letter-spacing: 0.48px;
-padding-top: 10px;
+margin-top: 10px;
 padding-bottom: 30px;
 }
 
@@ -249,7 +250,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.7;
 letter-spacing: 0.42px;
-padding-top: 9px;
+margin-top: 9px;
 }
 
 .footer-address-special{
@@ -300,6 +301,7 @@ letter-spacing: 0.42px;
 
 .portfolio-containre{
     padding-left: 24px;
+border: 1px solid #EEE;
 
 }
 
@@ -317,7 +319,7 @@ font-size: 18px;
 font-weight: 700;
 line-height: 2; 
 letter-spacing: 1.08px;
-padding-bottom: 4px;
+margin-bottom: 4px;
 padding-top: 20px;
 
 }
@@ -329,6 +331,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.9;
 letter-spacing: 0.48px;
+padding-bottom: 20px;
 
 }
 
