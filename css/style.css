@@ -295,8 +295,12 @@ letter-spacing: 0.42px;
 
 .portfolio-poster{
     display: flex;
-    gap: 30px;
     flex-wrap: wrap;
+    gap: 30px;
+}
+
+.portfolio-posters{
+    flex-basis: calc((100% - 60px) / 3);
 }
 
 .portfolio-containre{
