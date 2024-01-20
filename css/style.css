@@ -131,6 +131,11 @@ border-radius: 7px;
     gap: 30px;
 }
 
+.features-item::before{
+    content: "";
+    background-image: url()
+}
+
 .features-tytle{
 color: var(--text-color);
 font-size: 14px;
