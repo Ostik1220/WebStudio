@@ -131,9 +131,9 @@ border-radius: 7px;
     gap: 30px;
 }
 
-.features-item::before{
-    content: "";
-    background-image: url()
+.features-list::before {
+    content:"";
+margin-top: 40px;
 }
 
 .features-tytle{
