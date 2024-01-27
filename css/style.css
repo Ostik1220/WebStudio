@@ -137,7 +137,7 @@ border-radius: 7px;
     width: 270px;
 height: 120px;
 margin-bottom: 30px;
-background-image: url(../images/Reasone1.webp );
+background-image: url(../images/reason1.webp );
 }
 
 .features-item:nth-child(2)::before {
@@ -146,7 +146,7 @@ background-image: url(../images/Reasone1.webp );
     width: 270px;
 height: 120px;
 margin-bottom: 30px;
-background-image:url(../images/Reasone2.webp);
+background-image:url(../images/reason2.webp);
 }
 
 .features-item:nth-child(3)::before {
@@ -155,7 +155,7 @@ background-image:url(../images/Reasone2.webp);
     width: 270px;
 height: 120px;
 margin-bottom: 30px;
-background-image: url(../images/Reasone3.webp);
+background-image: url(../images/reason3.webp);
 }
 
 .features-item:nth-child(4)::before {
@@ -164,7 +164,7 @@ background-image: url(../images/Reasone3.webp);
     width: 270px;
 height: 120px;
 margin-bottom: 30px;
-background-image: url(../images/Reasone4.webp);
+background-image: url(../images/reason4.webp);
 }
 
 .features-tytle{
