@@ -17,7 +17,7 @@
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: solid darkblue;
+    /* outline: solid darkblue; */
 }
 
 .header{
@@ -214,6 +214,10 @@ margin-bottom: 50px;
 .team-list{
     display: flex;
     justify-content: space-between;
+}
+
+.team-item{
+    box-shadow: 0 10px 10px -5px grey;
 }
 
 .team-picture{
