@@ -83,12 +83,13 @@ letter-spacing: 0.28px;
 }
 
 .invitation{
-    background-image: url(../images/hero_bacground.webp), linear-gradient(#2F303A, #2F303A);
-    /* background: var(--footer-color) ; */
-    padding-bottom: 200px ;
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero_bacground.webp); 
     padding-top: 200px;
-    
+    padding-bottom: 200px;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
 }
+
 
 
 .invitation-tytle{
@@ -328,6 +329,7 @@ letter-spacing: 0.42px;
     flex-shrink: 0;
     border-radius: 7px;
     border: none;
+    padding: 6px 22px;
 }
 /* .portfolio-button:nth-child(1){
     width: 73px;
@@ -358,7 +360,7 @@ letter-spacing: 0.42px;
 .portfolio-button:hover {
  background: var(--overlay-color);
  color: var(--button-color);
- box-shadow: 0px 7px 3px -5px grey;
+ box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-poster{
@@ -372,7 +374,7 @@ letter-spacing: 0.42px;
 }
 
 .portfolio-posters:hover{
-    box-shadow: 5px 10px 6px -5px grey;
+box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 
