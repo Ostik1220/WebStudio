@@ -339,10 +339,10 @@ height: 20px;
 background-color: var(--overlay-color);
 }
 
-.team-social-listitem:focus .team-social-logos{
+.team-social-listitem:focus-within .team-social-logos{
     fill: white;
 }
-.team-social-listitem:focus{
+.team-social-listitem:focus-within{
 background-color: var(--overlay-color);
 }
 
@@ -418,7 +418,7 @@ letter-spacing: 0.42px;
     background-color: var(--overlay-color);
 }
 
-.footer-list-item:focus{
+.footer-list-item:focus-within{
     background-color: var(--overlay-color);
 }
 
@@ -606,6 +606,6 @@ border: 1px solid #AFB1B8;
     border: 1px solid var(--overlay-color);
 }
 
-.customers-border:focus  .customer-logo{
+.customers-border:focus-within  .customer-logo{
     fill: var(--overlay-color);
 }
