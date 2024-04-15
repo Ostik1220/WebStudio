@@ -681,6 +681,16 @@ line-height: normal;
 letter-spacing: 0.6px;
 }
 
+.modal-input-names{
+  color: #757575;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+
 .modal-input{
   width: 448px;
 height: 40px;
@@ -689,4 +699,14 @@ border-radius: 4px;
 border: 1px solid rgba(33, 33, 33, 0.20);
 margin-left: 40px;
 margin-right: 40px;
+}
+
+.modal-svg{
+  width: 18px;
+height: 18px;
+flex-shrink: 0;
+}
+
+.modal-inputs{
+  border: none;
 }
