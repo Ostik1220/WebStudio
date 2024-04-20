@@ -719,6 +719,11 @@ border: 1px solid rgba(33, 33, 33, 0.20);
 margin-left: 40px;
 margin-right: 40px;
 padding-top: 11px;
+outline: none;
+}
+
+.modal-label{
+  padding-top: 12px;
 }
 
 .modal-svg{
@@ -756,6 +761,7 @@ border: 1px solid rgba(33, 33, 33, 0.20);
 margin-left: 40px;
 padding-top: 12px;
 padding-left: 16px;
+outline: none;
 }
 
 .modal-box{
