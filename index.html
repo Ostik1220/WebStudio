@@ -64,7 +64,7 @@
         <div class="container invitation-container">
           <h1 class="invitation-tytle">Ефективні рішення для вашого бізнесу</h1>
           <div class="button-container">
-            <button type="button" class="invitation-button">
+            <button   data-modal-open type="button" class="invitation-button">
               Замовити послугу
             </button>
           </div>
@@ -402,9 +402,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div  data-modal class="backdrop is-hidden" >
       <div class="modal">
-        <button type="button" class="modal-button">
+        <button  data-modal-close type="button" class="modal-button" >
           <svg class="modal-close">
             <use href="./images/modal_icons.svg#icon-close">
           </svg>
@@ -412,6 +412,7 @@
         <h2 class="modal-tytle">
           Залиште свої дані, ми вам передзвонимо
         </h2>
+        <form>
         <ul class="modal-form">
           <li class="modal-text">
             <p class="modal-input-names">Ім'я</p>
@@ -442,16 +443,17 @@
           </li>
         </ul>
         <p class="modal-coment">Коментар</p>
-        <input type="text" class="modal-input-special">
-          <div>
+        <input type="text" class="modal-input-special" placeholder="Введіть текст">
+          <div class="modal-box">
             <input type="checkbox" class="modal-agree">
-            <p class="modal-agree">Погоджуюся з розсилкою та приймаю</p>
-            <a href="" class="modal-link">Умови договору</a>
+            <p class="modal-agree-text">Погоджуюся з розсилкою та приймаю <a href="" class="modal-link">Умови договору</a></p>
           </div>
           <button class="modal-send">
-            <p class="modal-send-text">Відправити</p>
+            Відправити
           </button>
+        </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
