@@ -824,12 +824,12 @@ outline: none;
   color: var(--button-color);
   margin-left: 164px;
 }
-
+/* 
 .is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-}
+} */
 
 
 .footer-form-text{
