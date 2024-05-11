@@ -8,6 +8,7 @@
 
 .body {
   font-family: Roboto;
+  transition-duration: 250ms;
 }
 
 .container {
