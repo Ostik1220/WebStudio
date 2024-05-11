@@ -68,15 +68,17 @@
   width: 0%;
   height: 4px;
   border-radius: 2px;
-  background-color: var(--overlay-color);
-  transform: scale(1, 1);
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+  background-color: var(--overlay-color);
+  transform: scaleX(1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .header-link:hover::after {
   display: block;
   width: 100%;
+  transform: scaleX(1);
 }
 
 .header-link:hover {
