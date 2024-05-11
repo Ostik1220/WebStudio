@@ -8,7 +8,6 @@
 
 .body {
   font-family: Roboto;
-  transition-duration: 250ms;
 }
 
 .container {
@@ -56,9 +55,13 @@
   display: block;
   padding-bottom: 32px;
   padding-top: 32px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .header-link::after {
+  display: flex;
+  justify-content: center;
   content: "";
   position: absolute;
   bottom: 0;
@@ -67,9 +70,12 @@
   height: 4px;
   border-radius: 2px;
   background-color: var(--overlay-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+  /* transform: scale(1, 1); */
 }
 
-.header-link:hover::after{
+.header-link:hover::after {
   display: block;
 }
 
@@ -99,6 +105,8 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.28px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .header-gmail-logo {
@@ -367,12 +375,16 @@
   height: 44px;
   padding: 12px;
   margin-bottom: 30px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .team-social-logos {
   fill: #afb1b8;
   width: 20px;
   height: 20px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .team-social-listitem:hover .team-social-logos {
@@ -452,7 +464,9 @@
   border-radius: 50px;
   width: 44px;
   height: 44px;
-  padding: 12px;
+  padding: 12px;  
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .footer-list-item:hover {
@@ -504,7 +518,9 @@
   flex-shrink: 0;
   border-radius: 7px;
   border: none;
-  padding: 6px 22px;
+  padding: 6px 22px;  
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 /* .portfolio-button:nth-child(1){
     width: 73px;
@@ -555,6 +571,8 @@
   overflow: hidden;
   flex-basis: calc((100% - 60px) / 3);
   position: relative;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .portfolio-posters:hover {
@@ -627,6 +645,8 @@
   height: 60px;
   fill: #afb1b8;
   margin: 16px 32px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .customers-border {
@@ -634,6 +654,8 @@
   height: 92px;
   border-radius: 4px;
   border: 1px solid #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .customers-border:hover .customer-logo {
@@ -675,7 +697,6 @@
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   position: absolute;
-
 }
 
 .modal-button {
@@ -694,6 +715,8 @@
   width: 18px;
   height: 18px;
   flex-shrink: 0;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .modal-button:hover .modal-close {
@@ -746,6 +769,8 @@
   padding-bottom: 11px;
   padding-left: 12px;
   display: flex;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .modal-input:hover .modal-svg {
@@ -766,6 +791,8 @@
 .modal-inputs {
   outline: none;
   border: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .modal-inputs:hover {
   border: none;
@@ -793,6 +820,8 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   margin-left: 40px;
   outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .modal-coment-input:hover {
@@ -942,6 +971,9 @@
   justify-content: center;
   align-items: center;
   visibility: hidden;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+  /* transform: translate(0px, -294px); */
 }
 
 .overlay-text {
