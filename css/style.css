@@ -56,29 +56,32 @@
   padding-bottom: 32px;
   padding-top: 32px;
   transition-duration: 250ms;
+  transition-property: color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transform: scale(1, 1);
+  
 }
 
 .header-link::after {
   content: "";
   position: absolute;
   bottom: 0;
+  left: 50%;
   display: none;
-  width: 0%;
+  width: 10%;
   height: 4px;
   border-radius: 2px;
   transition-duration: 250ms;
   background-color: var(--overlay-color);
-  transform: scaleX(1);
+  transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
 
 }
 
 .header-link:hover::after {
   display: block;
-  width: 100%;
-  transform: scaleX(1);
+  transform: scaleX(1), scaleX(-50%);
+
 }
 
 .header-link:hover {
@@ -387,6 +390,7 @@
   height: 20px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 
 .team-social-listitem:hover .team-social-logos {
@@ -469,6 +473,7 @@
   padding: 12px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 
 .footer-list-item:hover {
@@ -523,6 +528,7 @@
   padding: 6px 22px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 /* .portfolio-button:nth-child(1){
     width: 73px;
@@ -575,6 +581,7 @@
   position: relative;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: box-shadow, visability;
 }
 
 .portfolio-posters:hover {
@@ -649,6 +656,7 @@
   margin: 16px 32px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
 }
 
 .customers-border {
@@ -658,6 +666,7 @@
   border: 1px solid #afb1b8;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border;
 }
 
 .customers-border:hover .customer-logo {
@@ -711,6 +720,9 @@
   padding: 5px;
   margin-top: 8px;
   margin-left: 490px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border;
 }
 
 .modal-close {
@@ -719,6 +731,7 @@
   flex-shrink: 0;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
 }
 
 .modal-button:hover .modal-close {
@@ -773,6 +786,7 @@
   display: flex;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill, border;
 }
 
 .modal-input:hover .modal-svg {
@@ -788,6 +802,9 @@
   width: 18px;
   height: 18px;
   flex-shrink: 0;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border;
 }
 
 .modal-inputs {
@@ -795,6 +812,7 @@
   border: none;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border;
 }
 .modal-inputs:hover {
   border: none;
@@ -824,6 +842,7 @@
   outline: none;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border;
 }
 
 .modal-coment-input:hover {
@@ -961,8 +980,8 @@
 
 .overlay {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 480px;
+  /* bottom: 0; */
   right: 0;
   left: 0;
   background: rgba(33, 150, 243, 0.9);
@@ -972,10 +991,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  visibility: hidden;
+  /* visibility: hidden; */
+  overflow: hidden;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  /* transform: translate(0px, -294px); */
+  /* transition-property: visibility; */
+ 
 }
 
 .overlay-text {
@@ -991,4 +1012,5 @@
 
 .portfolio-posters:hover .overlay {
   visibility: visible;
+   transform: translate(0px, -480px);
 }
