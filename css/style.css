@@ -582,6 +582,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: box-shadow, visability;
+  z-index: 0;
 }
 
 .portfolio-posters:hover {
@@ -597,6 +598,7 @@
 .portfolio-containre {
   padding-left: 24px;
   border: 1px solid #eee;
+  z-index: 0;
 }
 
 .portfolio-picture {
@@ -996,6 +998,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   /* transition-property: visibility; */
+  z-index: 1;
  
 }
 
