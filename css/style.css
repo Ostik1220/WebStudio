@@ -590,7 +590,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: box-shadow, visability;
-  z-index: 0;
+  
 }
 
 .portfolio-posters:hover {
@@ -606,12 +606,13 @@
 .portfolio-containre {
   padding-left: 24px;
   border: 1px solid #eee;
-  z-index: 0;
+  z-index: 2;
 }
 
 .portfolio-picture {
   width: 370px;
   height: 294px;
+  z-index: 0;
 }
 
 .portfolio-name {
@@ -999,9 +1000,7 @@
 
 .overlay {
   position: absolute;
-  top: 480px;
-  /* bottom: 0; */
-  right: 0;
+  top: 0;
   left: 0;
   background: rgba(33, 150, 243, 0.9);
   width: 370px;
@@ -1011,13 +1010,30 @@
   justify-content: center;
   align-items: center;
   /* visibility: hidden; */
-  overflow: hidden;
+  opacity: 0;
+  transition-property: opacity, transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  /* transition-property: visibility; */
+  transform: translateY(294px);
   z-index: 1;
  
 }
+/* 
+.overlay{
+  display: flex;
+  align-items: end;
+  background: rgba(185, 106, 127, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(800px);
+} */
 
 .overlay-text {
   color: #fff;
@@ -1031,6 +1047,6 @@
 }
 
 .portfolio-posters:hover .overlay {
-  visibility: visible;
-   transform: translate(0px, -480px);
+  opacity: 1;
+   transform: translate(0px);
 }
