@@ -18,6 +18,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body class="body">
@@ -61,7 +65,7 @@
       <!-- invitation -->
       <section class="invitation">
         <div class="container invitation-container">
-          <h1 class="invitation-tytle">Ефективні рішення для вашого бізнесу</h1>
+          <h1 class="invitation-tytle" data-aos="zoom-in">Ефективні рішення для вашого бізнесу</h1>
           <div class="button-container">
             <button data-modal-open type="button" class="invitation-button">
               Замовити послугу
@@ -90,7 +94,7 @@
             <li class="features-item">
               <h4 class="features-tytle">ПЛАНУВАННЯ</h4>
               <p class="features-text">
-                Так само консультація з широким активом значною мірою зумовлює.
+                Так само консультація з широким активом значною мірою зумо2влює.
               </p>
             </li>
             <li class="features-item">
@@ -484,6 +488,10 @@
         </form>
       </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="./js/miodal.js"></script>
   </body>
 </html>
