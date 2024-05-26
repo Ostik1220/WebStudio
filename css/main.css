@@ -47,7 +47,6 @@ input {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: solid darkblue; */
 }
 
 .header {
@@ -325,7 +324,7 @@ input {
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 30px; /* 187.5% */
+  line-height: 30px;
   letter-spacing: 0.96px;
 }
 
@@ -336,16 +335,6 @@ input {
   fill: #fff;
 }
 
-/* .footer-form-agreement {
-  color: #fff;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0.96px;
-} */
 .footer-form {
   display: flex;
   flex-direction: row;
@@ -519,7 +508,6 @@ input {
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
   background-color: var(--button-color);
   border-radius: 0px 0px 4px 4px;
-  /* border: #219621 solid 2px; */
 }
 
 .team-picture {
@@ -673,8 +661,6 @@ input {
   background-color: rgba(0, 0, 0, 0.2);
   left: 0px;
   bottom: 0px;
-  /* opacity: 1;
-  visibility: visible; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -915,7 +901,6 @@ input {
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.6;
-  /* width: 125px; */
   height: 38px;
   flex-shrink: 0;
   border-radius: 7px;
@@ -926,30 +911,6 @@ input {
   transition-property: color;
 }
 
-/* .portfolio-button:nth-child(1){
-    width: 73px;
-    height: 38px;
-}
-
-.portfolio-button:nth-child(2){
-    width: 125px;
-    height: 38px;
-}
-
-.portfolio-button:nth-child(3){
-    width: 112px;
-    height: 38px;
-}
-
-.portfolio-button:nth-child(4){
-    width: 103px;
-    height: 38px;
-}
-
-.portfolio-button:nth-child(5){
-    width: 130px;
-    height: 38px;
-} */
 .portfolio-button:hover {
   background: var(--overlay-color);
   color: var(--button-color);
@@ -1029,7 +990,6 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* visibility: hidden; */
   opacity: 0;
   transition-property: opacity, transform;
   transition-duration: 250ms;
@@ -1038,29 +998,13 @@ input {
   z-index: 1;
 }
 
-/* 
-.overlay{
-  display: flex;
-  align-items: end;
-  background: rgba(185, 106, 127, 0.5);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  opacity: 0;
-  transition-property: opacity, transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateY(800px);
-} */
 .overlay-text {
   color: #fff;
   font-family: Roboto;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 155.556% */
+  line-height: 28px;
   letter-spacing: 0.54px;
   width: 322px;
 }
