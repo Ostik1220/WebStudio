@@ -57,11 +57,11 @@
   }
   
   .modal-button:hover .modal-close {
-    fill: var(--overlay-color);
+    fill: $overlay-color;
   }
   
   .modal-button:hover {
-    border: var(--overlay-color) solid 1px;
+    border: $overlay-color solid 1px;
   }
   
   .modal-tytle {
@@ -112,11 +112,11 @@
   }
   
   .modal-input:hover .modal-svg {
-    fill: var(--overlay-color);
+    fill: $overlay-color;
   }
   
   .modal-input:hover {
-    border: var(--overlay-color) solid 1px;
+    border: $overlay-color solid 1px;
   }
   
   .modal-svg {
@@ -168,7 +168,7 @@
   }
   
   .modal-coment-input:hover {
-    border: 1px solid var(--overlay-color);
+    border: 1px solid $overlay-color;
   }
   
   .modal-input-special {
@@ -220,7 +220,7 @@
     height: 50px;
     flex-shrink: 0;
     border: none;
-    color: var(--button-color);
+    color: $button-color;
     margin-left: 164px;
   }
   

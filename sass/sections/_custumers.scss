@@ -45,17 +45,17 @@
   }
   
   .customers-border:hover .customer-logo {
-    fill: var(--overlay-color);
+    fill: $overlay-color;
   }
   
   .customers-border:hover {
-    border: 1px solid var(--overlay-color);
+    border: 1px solid $overlay-color;
   }
   
   .customers-border:focus {
-    border: 1px solid var(--overlay-color);
+    border: 1px solid $overlay-color;
   }
   
   .customers-border:focus-within .customer-logo {
-    fill: var(--overlay-color);
+    fill: $overlay-color;
   }

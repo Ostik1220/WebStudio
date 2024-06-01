@@ -14,8 +14,8 @@
   }
   
   .portfolio-button {
-    color: var(--text-color);
-    background: var(--button-color);
+    color: $text-color;
+    background: $button-color;
     font-family: Roboto;
     font-size: 16px;
     line-height: 1.6;
@@ -31,15 +31,15 @@
 
   
   .portfolio-button:hover {
-    background: var(--overlay-color);
-    color: var(--button-color);
+    background: $overlay-color;
+    color: $button-color;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
       0 3px 1px 0 rgba(0, 0, 0, 0.1);
   }
   
   .portfolio-button:focus {
-    background: var(--overlay-color);
-    color: var(--button-color);
+    background: $overlay-color;
+    color: $button-color;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
       0 3px 1px 0 rgba(0, 0, 0, 0.1);
   }
@@ -83,7 +83,7 @@
   }
   
   .portfolio-name {
-    color: var(--text-color);
+    color: $text-color;
     width: 332px;
     font-size: 18px;
     font-weight: 700;
@@ -94,7 +94,7 @@
   }
   
   .portfolio-text {
-    color: var(--content-color);
+    color: $content-color;
     width: 332px;
     font-size: 16px;
     font-weight: 400;

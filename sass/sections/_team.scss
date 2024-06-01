@@ -14,7 +14,7 @@
   .team-item {
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
       0 1px 3px 0 rgba(0, 0, 0, 0.12);
-    background-color: var(--button-color);
+    background-color: $button-color;
     border-radius: 0px 0px 4px 4px;
   }
   
@@ -29,7 +29,7 @@
   }
   
   .team-tytle {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
@@ -40,7 +40,7 @@
   }
   
   .team-teammate {
-    color: var(--text-color);
+    color: $text-color;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -50,7 +50,7 @@
   }
   
   .team-text {
-    color: var(--content-color);
+    color: $content-color;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -90,12 +90,12 @@
     fill: white;
   }
   .team-social-listitem:hover {
-    background-color: var(--overlay-color);
+    background-color: $overlay-color;
   }
   
   .team-social-listitem:focus-within .team-social-logos {
     fill: white;
   }
   .team-social-listitem:focus-within {
-    background-color: var(--overlay-color);
+    background-color: $overlay-color;
   }

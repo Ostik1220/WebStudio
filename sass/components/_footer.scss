@@ -1,7 +1,7 @@
 
 
 .footer {
-    background: var(--footer-color);
+    background: $footer-color;
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -20,7 +20,7 @@
   }
   
   .footer-logo {
-    color: var(--overlay-color);
+    color: $overlay-color;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
@@ -30,7 +30,7 @@
   }
   
   .footer-logo-color {
-    color: var(--button-color);
+    color: $button-color;
   }
   
   .footer-address {
@@ -70,21 +70,21 @@
   }
   
   .footer-list-item:hover {
-    background-color: var(--overlay-color);
+    background-color: $overlay-color;
   }
   
   .footer-list-item:focus-within {
-    background-color: var(--overlay-color);
+    background-color: $overlay-color;
   }
   
   .footer-services {
     width: 20px;
     height: 20px;
-    fill: var(--button-color);
+    fill: $button-color;
   }
   
   .footer-encourage {
-    color: var(--button-color);
+    color: $button-color;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -122,9 +122,9 @@
     height: 50px;
     flex-shrink: 0;
     border-radius: 4px;
-    background: var(--overlay-color);
+    background: $overlay-color;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    border: var(--overlay-color);
+    border: $overlay-color;
     display: flex;
     flex-direction: row;
     gap: 10px;
