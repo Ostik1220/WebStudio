@@ -3,9 +3,9 @@
 .portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
-  }
   
-  .portfolio-buttonlist {
+  
+&__buttonlist {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -13,7 +13,7 @@
     margin-bottom: 50px;
   }
   
-  .portfolio-button {
+&__button {
     color: $text-color;
     background: $button-color;
     font-family: Roboto;
@@ -30,27 +30,27 @@
   }
 
   
-  .portfolio-button:hover {
+&__button:hover {
     background: $overlay-color;
     color: $button-color;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
       0 3px 1px 0 rgba(0, 0, 0, 0.1);
   }
   
-  .portfolio-button:focus {
+&__button:focus {
     background: $overlay-color;
     color: $button-color;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
       0 3px 1px 0 rgba(0, 0, 0, 0.1);
   }
   
-  .portfolio-poster {
+&__poster {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
   }
   
-  .portfolio-posters {
+&__posters {
     overflow: hidden;
     flex-basis: calc((100% - 60px) / 3);
     position: relative;
@@ -60,29 +60,29 @@
     
   }
   
-  .portfolio-posters:hover {
+&__posters:hover {
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
       0 1px 1px 0 rgba(0, 0, 0, 0.12);
   }
   
-  .portfolio-posters:focus {
+&__posters:focus {
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
       0 1px 1px 0 rgba(0, 0, 0, 0.12);
   }
   
-  .portfolio-containre {
+&__containre {
     padding-left: 24px;
     border: 1px solid #eee;
     z-index: 2;
   }
   
-  .portfolio-picture {
+&__picture {
     width: 370px;
     height: 294px;
     z-index: 0;
   }
   
-  .portfolio-name {
+&__name {
     color: $text-color;
     width: 332px;
     font-size: 18px;
@@ -93,7 +93,7 @@
     padding-top: 20px;
   }
   
-  .portfolio-text {
+&__text {
     color: $content-color;
     width: 332px;
     font-size: 16px;
@@ -102,6 +102,12 @@
     letter-spacing: 0.48px;
     padding-bottom: 20px;
   }
+
+  &__posters:hover .overlay {
+    opacity: 1;
+     transform: translate(0px);
+  }
+}
 
   
 .overlay {
@@ -122,10 +128,10 @@
     transform: translateY(294px);
     z-index: 1;
    
-  }
+  
 
   
-  .overlay-text {
+ &__text {
     color: #fff;
     font-family: Roboto;
     font-size: 18px;
@@ -136,8 +142,4 @@
     width: 322px;
   }
   
-  .portfolio-posters:hover .overlay {
-    opacity: 1;
-     transform: translate(0px);
-  }
-  
+}
