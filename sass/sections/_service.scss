@@ -1,18 +1,18 @@
 
 .service {
     padding-bottom: 94px;
-  }
   
-  .service-list {
+  
+  &__list {
     display: flex;
     justify-content: space-between;
   }
   
-  .service-listitem {
+  &__listitem {
     position: relative;
   }
   
-  .service-tytle {
+  &__tytle {
     color: $text-color;
     font-size: 36px;
     font-weight: 700;
@@ -23,7 +23,7 @@
     margin-bottom: 50px;
   }
   
-  .service-containre {
+  &__containre {
     width: 370px;
     height: 70px;
     background: rgba(47, 48, 58, 0.8);
@@ -32,7 +32,7 @@
     bottom: 0px;
   }
   
-  .service-text {
+  &__text {
     color: $button-color;
     text-align: center;
     font-size: 14px;
@@ -42,3 +42,4 @@
     letter-spacing: 0.42px;
     text-transform: uppercase;
   }
+}

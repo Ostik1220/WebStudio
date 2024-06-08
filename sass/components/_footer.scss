@@ -4,13 +4,13 @@
     background: $footer-color;
     padding-top: 60px;
     padding-bottom: 60px;
-  }
+
   
-  .footer-containre {
+  &__containre {
     display: flex;
   }
   
-  .footer-second-part {
+  &__second-part {
     padding-top: 12px;
     margin-left: 70px;
     margin-right: 93px;
@@ -19,7 +19,7 @@
     flex-shrink: 0;
   }
   
-  .footer-logo {
+  &__logo {
     color: $overlay-color;
     font-family: Raleway;
     font-size: 26px;
@@ -29,11 +29,11 @@
     margin-bottom: 20px;
   }
   
-  .footer-logo-color {
+  &__logo-color {
     color: $button-color;
   }
   
-  .footer-address {
+  &__address {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     font-style: normal;
@@ -43,7 +43,7 @@
     margin-top: 9px;
   }
   
-  .footer-address-special {
+  &__address-special {
     color: #fff;
     font-style: normal;
     font-size: 14px;
@@ -52,13 +52,13 @@
     letter-spacing: 0.42px;
   }
   
-  .footer-list {
+  &__list {
     margin-top: 32px;
     display: flex;
     gap: 10px;
   }
   
-  .footer-list-item {
+  &__list-item {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50px;
     width: 44px;
@@ -69,21 +69,21 @@
     transition-property: color;
   }
   
-  .footer-list-item:hover {
+  &__list-item:hover {
     background-color: $overlay-color;
   }
   
-  .footer-list-item:focus-within {
+  &__list-item:focus-within {
     background-color: $overlay-color;
   }
   
-  .footer-services {
+  &__services {
     width: 20px;
     height: 20px;
     fill: $button-color;
   }
   
-  .footer-encourage {
+  &__encourage {
     color: $button-color;
     font-family: Roboto;
     font-size: 14px;
@@ -94,7 +94,12 @@
     text-transform: uppercase;
   }
 
-  .footer-form-text {
+  &__form{
+    display: flex;
+    width: 570px;
+  }
+
+  &__form-text {
     color: #fff;
     font-size: 14px;
     font-style: normal;
@@ -106,7 +111,7 @@
     margin-bottom: 20px;
   }
   
-  .footer-form-input {
+  &__form-input {
     width: 358px;
     height: 50px;
     flex-shrink: 0;
@@ -117,7 +122,7 @@
     outline: none;
   }
   
-  .footer-form-button {
+  &__form-button {
     width: 200px;
     height: 50px;
     flex-shrink: 0;
@@ -140,7 +145,7 @@
     letter-spacing: 0.96px;
   }
   
-  .footer-form-svg {
+  &__form-svg {
     width: 24px;
     height: 24px;
     flex-shrink: 0;
@@ -148,8 +153,9 @@
   }
   
   
-  .footer-form {
+  &__form {
     display: flex;
     flex-direction: row;
     gap: 12px;
   }
+}

@@ -4,31 +4,31 @@
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: #f5f4fa;
-  }
   
-  .team-list {
+  
+&__list {
     display: flex;
     justify-content: space-between;
   }
   
-  .team-item {
+&__item {
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
       0 1px 3px 0 rgba(0, 0, 0, 0.12);
     background-color: $button-color;
     border-radius: 0px 0px 4px 4px;
   }
   
-  .team-picture {
+&__picture {
     width: 270px;
     height: 260px;
   }
   
-  .team-containre {
+&__containre {
     background-color: #fff;
     border-radius: 0px 0px 4px 4px;
   }
   
-  .team-tytle {
+&__tytle {
     color: $text-color;
     font-size: 36px;
     font-weight: 700;
@@ -39,7 +39,7 @@
     margin-bottom: 50px;
   }
   
-  .team-teammate {
+&__teammate {
     color: $text-color;
     text-align: center;
     font-size: 16px;
@@ -49,7 +49,7 @@
     padding-top: 30px;
   }
   
-  .team-text {
+&__text {
     color: $content-color;
     text-align: center;
     font-size: 16px;
@@ -60,13 +60,13 @@
     padding-bottom: 16px;
   }
   
-  .team-social-list {
+&__social-list {
     display: flex;
     gap: 10px;
     margin-left: 32px;
   }
   
-  .team-social-listitem {
+&__social-listitem {
     background-color: white;
     border-radius: 50px;
     width: 44px;
@@ -77,7 +77,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .team-social-logos {
+&__social-logos {
     fill: #afb1b8;
     width: 20px;
     height: 20px;
@@ -86,16 +86,17 @@
     transition-property: color;
   }
   
-  .team-social-listitem:hover .team-social-logos {
+&__social-listitem:hover &__social-logos {
     fill: white;
   }
-  .team-social-listitem:hover {
+&__social-listitem:hover {
     background-color: $overlay-color;
   }
   
-  .team-social-listitem:focus-within .team-social-logos {
+&__social-listitem:focus-within &__social-logos {
     fill: white;
   }
-  .team-social-listitem:focus-within {
+&__social-listitem:focus-within {
     background-color: $overlay-color;
   }
+}

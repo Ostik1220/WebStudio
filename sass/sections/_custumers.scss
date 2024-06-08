@@ -1,13 +1,10 @@
-
-
 .customers {
-    width: 1170px;
-    height: 184px;
-    margin: 94px;
-    margin-bottom: 94px;
-  }
-  
-  .customers-tytle {
+  width: 1200px;
+  height: 184px;
+  margin: 94px;
+  margin-bottom: 94px;
+
+  &__tytle {
     color: #212121;
     text-align: center;
     font-family: Roboto;
@@ -18,13 +15,13 @@
     letter-spacing: 1.08px;
     margin-bottom: 50px;
   }
-  
-  .customers-list {
+
+  &__list {
     display: flex;
     gap: 30px;
   }
-  
-  .customer-logo {
+
+  &__logo {
     width: 106px;
     height: 60px;
     fill: #afb1b8;
@@ -33,8 +30,8 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: fill;
   }
-  
-  .customers-border {
+
+  &__border {
     width: 170px;
     height: 92px;
     border-radius: 4px;
@@ -43,19 +40,20 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border;
   }
-  
-  .customers-border:hover .customer-logo {
+
+  &__border:hover &__logo {
     fill: $overlay-color;
   }
-  
-  .customers-border:hover {
+
+  &__border:hover {
     border: 1px solid $overlay-color;
   }
-  
-  .customers-border:focus {
+
+  &__border:focus {
     border: 1px solid $overlay-color;
   }
-  
-  .customers-border:focus-within .customer-logo {
+
+  &__border:focus-within &__logo {
     fill: $overlay-color;
   }
+}
