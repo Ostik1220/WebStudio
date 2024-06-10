@@ -15,7 +15,7 @@
     letter-spacing: 0.78px;
   }
   
-&__logo-color {
+&__span {
     color: $text-color;
   }
 &__list {
@@ -86,7 +86,7 @@
     margin-left: 318px;
   }
   
-&__contact-item {
+&__content {
     display: flex;
     gap: 10px;
   }
@@ -101,7 +101,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-&__gmail-logo {
+&__gmail {
     width: 16px;
     height: 12px;
     flex-shrink: 0;
@@ -109,7 +109,7 @@
     margin-top: 2px;
     margin-bottom: 2px;
   }
-&__phone-logo {
+&__phone {
     width: 10px;
     height: 16px;
     flex-shrink: 0;
@@ -120,11 +120,11 @@
     color: $overlay-color;
   }
   
-&__contact-item:hover &__gmail-logo {
+&__content:hover &__gmail {
     fill: $overlay-color;
   }
   
-&__contact-item:hover &__phone-logo {
+&__content:hover &__phone {
     fill: $overlay-color;
   }
   
@@ -132,11 +132,11 @@
     color: $overlay-color;
   }
   
-&__contact-item:focus-within &__gmail-logo {
+&__content:focus-within &__gmail {
     fill: $overlay-color;
   }
   
-&__contact-item:focus-within &__phone-logo {
+&__content:focus-within &__phone {
     fill: $overlay-color;
   }
 

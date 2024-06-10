@@ -15,7 +15,7 @@
     visibility 250ms cubic-bezier(0.83, -0.08, 0.32, 1);
   }
   
-  .backdrop.is-hidden .modal {
+  .backdrop.hidden .modal {
     transform: translate(-50%, -50%) scale(0);
   }
   
@@ -82,7 +82,7 @@
     gap: 10px;
   }
   
-  &__input-names {
+  &__names {
     color: #757575;
     font-family: Roboto;
     font-size: 12px;
@@ -153,7 +153,7 @@
     margin-top: 10px;
   }
   
-  &__coment-input {
+  &__borders {
     color: rgba(117, 117, 117, 0.5);
     width: 448px;
     height: 120px;
@@ -167,11 +167,11 @@
     transition-property: border;
   }
   
-  &__coment-input:hover {
+  &__borders:hover {
     border: 1px solid $overlay-color;
   }
   
-  &__input-special {
+  &__special {
     color: rgba(117, 117, 117, 0.5);
     font-family: Roboto;
     font-size: 12px;
@@ -198,7 +198,7 @@
     margin-top: 4px;
   }
   
-  &__agree-text {
+  &__agreement {
     color: #757575;
     font-size: 14px;
     font-style: normal;
@@ -226,7 +226,7 @@
 
 }
   
-  .is-hidden {
+  .hidden {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
