@@ -1,3 +1,9 @@
-@mixin socials () {
-    
+@mixin socials ($background:white, $margin:30px) {
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    transition-duration: 250ms;
+    background-color: $background;
+    margin-bottom: 30px;
 }
