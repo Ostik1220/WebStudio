@@ -29,14 +29,9 @@
   }
   
 &__tytle {
-    color: $text-color;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: 1.08px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+@extend %tytle-font;
+display: flex;
+justify-content: center;
   }
   
 &__teammate {
