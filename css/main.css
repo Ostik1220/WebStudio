@@ -7,6 +7,17 @@
   margin-bottom: 50px;
 }
 
+.footer__text, .footer__encourage {
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #f5f4fa;
+  font-family: Roboto;
+}
+
 body,
 h1,
 h2,
@@ -239,28 +250,11 @@ input {
   height: 20px;
   fill: #f5f4fa;
 }
-.footer__encourage {
-  color: #f5f4fa;
-  font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
-}
 .footer__form {
   display: flex;
   width: 570px;
 }
 .footer__text {
-  color: #fff;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
   padding-top: 12px;
   margin-bottom: 20px;
 }
@@ -687,6 +681,16 @@ input {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border;
 }
+.modal__special {
+  color: rgba(117, 117, 117, 0.5);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+  outline: none;
+}
 .modal__inputs:hover {
   border: none;
 }
@@ -717,16 +721,6 @@ input {
 }
 .modal__borders:hover {
   border: 1px solid #2196f3;
-}
-.modal__special {
-  color: rgba(117, 117, 117, 0.5);
-  font-family: Roboto;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.12px;
-  outline: none;
 }
 .modal__box {
   display: flex;

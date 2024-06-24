@@ -78,14 +78,8 @@
   }
   
   &__encourage {
-    color: $button-color;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
+    @extend %footer-text
+
   }
 
   &__form{
@@ -94,13 +88,7 @@
   }
 
   &__text {
-    color: #fff;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
+    @extend %footer-text;
     padding-top: 12px;
     margin-bottom: 20px;
   }

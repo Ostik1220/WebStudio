@@ -136,6 +136,18 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border;
   }
+
+  &__special {
+    color: rgba(117, 117, 117, 0.5);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+    outline: none;
+  }
+  
   &__inputs:hover {
     border: none;
   }
@@ -171,16 +183,7 @@
     border: 1px solid $overlay-color;
   }
   
-  &__special {
-    color: rgba(117, 117, 117, 0.5);
-    font-family: Roboto;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.12px;
-    outline: none;
-  }
+
   
   &__box {
     display: flex;
