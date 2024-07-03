@@ -35,10 +35,20 @@ input {
 }
 
 .container {
-  width: 1200px;
+  width: 450px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+@media screen and (min-width: 738px) {
+  .container {
+    width: 738px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .header {
@@ -61,8 +71,14 @@ input {
 }
 .header__list {
   display: flex;
-  gap: 50px;
+  gap: 55px;
   margin-left: 93px;
+}
+@media screen and (min-width: 738px) {
+  .header__list {
+    margin-left: 88px;
+    gap: 51px;
+  }
 }
 .header__link {
   color: #212121;
@@ -112,6 +128,13 @@ input {
   justify-content: flex-end;
   gap: 30px;
   margin-left: 318px;
+}
+@media screen and (min-width: 738px) {
+  .header__contacts {
+    margin-left: 96px;
+    gap: 10px;
+    flex-direction: column;
+  }
 }
 .header__content {
   display: flex;

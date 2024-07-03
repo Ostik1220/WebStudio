@@ -20,8 +20,12 @@
   }
 &__list {
     display: flex;
-    gap: 50px;
+    gap: 55px;
     margin-left: 93px;
+    @media screen and (min-width: 738px) {
+      margin-left: 88px;
+      gap: 51px;
+    }
   }
   
 &__link {
@@ -84,6 +88,11 @@
     justify-content: flex-end;
     gap: 30px;
     margin-left: 318px;
+    @media screen and (min-width: 738px){
+    margin-left: 96px;
+    gap: 10px;
+    flex-direction: column;
+    }
   }
   
 &__content {
