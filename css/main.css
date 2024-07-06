@@ -230,4 +230,10 @@ input {
   .header__icon {
     display: none;
   }
+}
+.header__button:hover .header__icon {
+  fill: #2196f3;
+}
+.header__button:focus .header__icon {
+  fill: #2196f3;
 }/*# sourceMappingURL=main.css.map */

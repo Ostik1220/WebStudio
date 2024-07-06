@@ -188,4 +188,14 @@ border: none;
     display: none;
   }
 }
+
+&__button:hover &__icon {
+  fill: $overlay-color;
+
+}
+
+&__button:focus &__icon {
+  fill: $overlay-color;
+
+}
 }
