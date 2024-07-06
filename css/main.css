@@ -38,7 +38,7 @@ input {
   width: 450px;
   margin: 0 auto;
 }
-@media screen and (min-width: 738px) {
+@media screen and (min-width: 768px) {
   .container {
     width: 738px;
   }
@@ -72,7 +72,7 @@ input {
 .header__list {
   display: none;
 }
-@media screen and (min-width: 738px) {
+@media screen and (min-width: 768px) {
   .header__list {
     display: flex;
     margin-left: 88px;
@@ -132,7 +132,7 @@ input {
 .header__contacts {
   display: none;
 }
-@media screen and (min-width: 738px) {
+@media screen and (min-width: 768px) {
   .header__contacts {
     display: flex;
     margin-left: 96px;
@@ -205,7 +205,7 @@ input {
   margin-left: 276px;
   border: none;
 }
-@media screen and (min-width: 738px) {
+@media screen and (min-width: 768px) {
   .header__button {
     display: none;
   }
@@ -221,7 +221,7 @@ input {
   height: 40px;
   flex-shrink: 0;
 }
-@media screen and (min-width: 738px) {
+@media screen and (min-width: 768px) {
   .header__icon {
     display: none;
   }
