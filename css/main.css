@@ -46,10 +46,10 @@ input {
 }
 
 .container {
-  width: 450px;
+  width: 480px;
   margin: 0 auto;
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 480px) {
   .container {
     width: 738px;
   }
@@ -68,10 +68,10 @@ input {
 .header__container {
   justify-content: space-between;
   display: flex;
+  align-items: center;
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 480px) {
   .header__container {
-    align-items: center;
     justify-content: center;
   }
 }
@@ -84,7 +84,7 @@ input {
   letter-spacing: 0.78px;
   margin-left: 15px;
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 480px) {
   .header__logo {
     color: #2196f3;
     font-family: Raleway;
@@ -101,7 +101,7 @@ input {
 .header__list {
   display: none;
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 480px) {
   .header__list {
     display: flex;
     margin-left: 88px;
@@ -161,7 +161,7 @@ input {
 .header__contacts {
   display: none;
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 480px) {
   .header__contacts {
     display: flex;
     margin-left: 96px;
@@ -233,7 +233,7 @@ input {
   align-items: center;
   border: none;
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 480px) {
   .header__button {
     display: none;
   }
@@ -249,7 +249,7 @@ input {
   height: 40px;
   flex-shrink: 0;
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 480px) {
   .header__icon {
     display: none;
   }
@@ -396,6 +396,11 @@ input {
   background-position: center, center;
   background-repeat: no-repeat, no-repeat;
 }
+@media screen and (min-width: 480px) {
+  .invitation {
+    background-position: center, center;
+  }
+}
 .invitation__tytle {
   color: #f5f4fa;
   text-align: center;
@@ -409,7 +414,7 @@ input {
   letter-spacing: 2.64px;
   text-transform: uppercase;
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 480px) {
   .invitation__tytle {
     letter-spacing: 2.64px;
     margin-left: 273px;

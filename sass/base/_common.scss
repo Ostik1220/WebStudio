@@ -3,9 +3,9 @@
   }
   
   .container {
-    width: 450px;
+    width: 480px;
     margin: 0 auto;
-    @media screen and (min-width: 450px) {
+    @media screen and (min-width: 480px) {
       width: 738px;
     }
     @media screen and (min-width: 1200px) {

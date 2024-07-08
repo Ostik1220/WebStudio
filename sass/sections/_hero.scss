@@ -9,6 +9,9 @@
     padding-bottom: 200px;
     background-position: center, center;
     background-repeat: no-repeat, no-repeat;
+    @media screen and (min-width: 480px){
+      background-position: center, center;
+    }
   
   
  &__tytle {
@@ -23,7 +26,7 @@
   line-height: 1.4;
   letter-spacing: 2.64px;
   text-transform: uppercase;
-    @media screen and (min-width: 450px){
+    @media screen and (min-width: 480px){
       letter-spacing: 2.64px;
       margin-left: 273px;
       margin-right: 273px;
