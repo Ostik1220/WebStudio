@@ -12,16 +12,23 @@
   
   
  &__tytle {
-    color: $button-color;
-    text-align: center;
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1.4;
-    letter-spacing: 2.64px;
-    text-transform: uppercase;
-    margin-left: 273px;
-    margin-right: 273px;
-    margin-bottom: 30px;
+  color: $button-color;
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+  font-size: 26px;
+  letter-spacing: 1.56px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+    @media screen and (min-width: 450px){
+      letter-spacing: 2.64px;
+      margin-left: 273px;
+      margin-right: 273px;
+      margin-bottom: 30px;
+    }
   }
   
  &__borders {

@@ -13,6 +13,16 @@
     font-weight: 700;
     line-height: 1.3;
     letter-spacing: 0.78px;
+    margin-left: 15px;
+    @media screen and (min-width: 450px) {
+      color: $overlay-color;
+      font-family: Raleway;
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 1.3;
+      letter-spacing: 0.78px;
+      margin-left: 0; 
+    }
   }
   
 &__span {
@@ -20,7 +30,7 @@
   }
 &__list {
   display: none;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 450px) {
       display: flex;
       margin-left: 88px;
       gap: 51px;
@@ -90,7 +100,7 @@
   
 &__contacts {
     display: none;
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 450px){
       display: flex;
     margin-left: 96px;
     gap: 10px;
@@ -168,7 +178,7 @@ justify-content: center;
 align-items: center;
 margin-left: 276px;
 border: none;
-@media screen and (min-width: 768px){
+@media screen and (min-width: 450px){
   display: none;
 }
 @media screen and (min-width: 1200px){
@@ -181,7 +191,7 @@ border: none;
   width: 40px;
   height: 40px;
   flex-shrink: 0;
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 450px){
     display: none;
   }
   @media screen and (min-width: 1200px){
