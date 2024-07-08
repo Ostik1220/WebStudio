@@ -2,8 +2,12 @@
     border-bottom: solid #ececec 1px;
   
 &__container {
-    display: flex;
-    align-items: center;
+  justify-content: space-between;
+  display: flex;
+    @media screen and (min-width: 450px) {
+      align-items: center;
+      justify-content: center;
+    }
   }
   
 &__logo {
@@ -176,7 +180,7 @@ background-color: transparent;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-left: 276px;
+// margin-left: 276px;
 border: none;
 @media screen and (min-width: 450px){
   display: none;
