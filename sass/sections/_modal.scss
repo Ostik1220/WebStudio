@@ -20,7 +20,7 @@
   }
   
   .modal {
-    width: 450px;
+    max-width: 450px;
     height: 609px;
     flex-shrink: 0;
     border-radius: 4px;
@@ -49,9 +49,6 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border;
-    @media screen and (min-width: 480px) {
-      margin-left: 490px;
-    }
     
   }
   
@@ -110,7 +107,7 @@
   
   &__input {
     padding-top: 11px;
-    width: 370px;
+    max-width: 370px;
     height: 40px;
     flex-shrink: 0;
     border-radius: 4px;
@@ -184,7 +181,7 @@
   
   &__borders {
     color: rgba(117, 117, 117, 0.5);
-    width: 370px;
+    max-width: 370px;
     height: 120px;
     flex-shrink: 0;
     border-radius: 4px;
