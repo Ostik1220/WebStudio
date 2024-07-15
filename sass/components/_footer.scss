@@ -8,15 +8,41 @@
   
   &__containre {
     display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    @media screen and (min-width: 480px) {
+      flex-direction: row;
+      gap: 0;
+        }
   }
-  
+  &__first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media screen and (min-width: 480px) {
+      align-items: start;
+        }
+    
+  }
+
   &__second {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
     padding-top: 12px;
-    margin-left: 70px;
-    margin-right: 93px;
     width: 206px;
     height: 80px;
     flex-shrink: 0;
+   
+    @media screen and (min-width: 480px) {
+      align-items: start;
+      margin-left: 70px;
+      margin-right: 93px;
+        }
   }
   
   &__logo {
@@ -26,7 +52,10 @@
     font-weight: 700;
     line-height: 1.9;
     letter-spacing: 0.78px;
-    margin-bottom: 20px;
+    @media screen and (min-width: 480px) {
+      margin-bottom: 20px; 
+        }
+
   }
   
   &__color {
@@ -81,10 +110,27 @@
     @extend %footer-text
 
   }
+  &__third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media screen and (min-width: 480px) {
+      justify-content: start;
+      align-items: start;
+        }
+  }
 
   &__form{
     display: flex;
+    gap: 12px;
     width: 570px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media screen and (min-width: 480px) {
+      flex-direction: row;
+    }
   }
 
   &__text {
@@ -135,9 +181,4 @@
   }
   
   
-  &__form {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-  }
 }
