@@ -26,30 +26,32 @@
   &__item:nth-child(1)::before {
     content: "";
     display: block;
+    max-width: 450px;
     width: 450px;
     height: 120px;
     margin-bottom: 30px;
-    background-image: url(../images/reason1.webp), url(../images/adaptive_background.webp);
+    background: url(../images/reason1.webp), $bu;
     background-repeat: no-repeat, repeat;
     background-position: center, center;
   @media screen and (min-width: 480px) {
     background-image: url(../images/reason1.webp);
-        width: 270px;
+        max-width: 270px;
   }
   }
   
   &__item:nth-child(2)::before {
     content: "";
     display: block;
+    max-width: 450px;
     width: 450px;
     height: 120px;
     margin-bottom: 30px;
-    background-image: url(../images/reason2.webp), url(../images/adaptive_background.webp);
+    background: url(../images/reason2.webp), $bu;
     background-repeat: no-repeat, repeat;
     background-position: center, center;
   @media screen and (min-width: 480px) {
     background-image: url(../images/reason2.webp);
-        width: 270px;
+        max-width: 270px;
 
   }
   }
@@ -57,30 +59,32 @@
   &__item:nth-child(3)::before {
     content: "";
     display: block;
+    max-width: 450px;
     width: 450px;
     height: 120px;
     margin-bottom: 30px;
-    background-image: url(../images/reason3.webp), url(../images/adaptive_background.webp);
+    background: url(../images/reason3.webp), $button-color;
     background-repeat: no-repeat, repeat;
     background-position: center, center;
   @media screen and (min-width: 480px) {
     background-image: url(../images/reason3.webp);
-       width: 270px;
+       max-width: 270px;
   }
   }
   
   &__item:nth-child(4)::before {
     content: "";
     display: block;
+    max-width: 450px;
     width: 450px;
     height: 120px;
     margin-bottom: 30px;
-    background-image: url(../images/reason4.webp), url(../images/adaptive_background.webp);
+    background: url(../images/reason4.webp), $bu;
     background-repeat: no-repeat, repeat;
     background-position: center, center;
   @media screen and (min-width: 480px) {
     background-image: url(../images/reason4.webp);
-        width: 270px;
+        max-width: 270px;
   }
   }
   
