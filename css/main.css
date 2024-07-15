@@ -865,14 +865,14 @@ input {
   border-radius: 50%;
   padding: 5px;
   margin-top: 8px;
-  margin-left: 490px;
+  margin-left: 412px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border;
 }
 @media screen and (min-width: 480px) {
   .modal__button {
-    margin-left: 412px;
+    margin-left: 490px;
   }
 }
 .modal__close {
@@ -899,6 +899,14 @@ input {
   line-height: normal;
   letter-spacing: 0.6px;
   margin-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+@media screen and (min-width: 480px) {
+  .modal__tytle {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 .modal__form {
   display: flex;
@@ -918,7 +926,7 @@ input {
 }
 .modal__input {
   padding-top: 11px;
-  width: 448px;
+  width: 370px;
   height: 40px;
   flex-shrink: 0;
   border-radius: 4px;
@@ -931,6 +939,11 @@ input {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill, border;
+}
+@media screen and (min-width: 480px) {
+  .modal__input {
+    width: 448px;
+  }
 }
 .modal__input:hover .modal__svg {
   fill: #2196f3;
@@ -981,7 +994,7 @@ input {
 }
 .modal__borders {
   color: rgba(117, 117, 117, 0.5);
-  width: 448px;
+  width: 370px;
   height: 120px;
   flex-shrink: 0;
   border-radius: 4px;
@@ -992,6 +1005,11 @@ input {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border;
 }
+@media screen and (min-width: 480px) {
+  .modal__borders {
+    width: 448px;
+  }
+}
 .modal__borders:hover {
   border: 1px solid #2196f3;
 }
@@ -1001,6 +1019,7 @@ input {
   gap: 8.38px;
   margin-top: 20px;
   margin-bottom: 30px;
+  align-items: center;
 }
 .modal__agree {
   fill: #212121;
@@ -1011,11 +1030,11 @@ input {
 }
 .modal__agreement {
   color: #757575;
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.42px;
+  line-height: normal;
+  letter-spacing: 0.36px;
 }
 .modal__link {
   color: #2196f3;
@@ -1030,7 +1049,7 @@ input {
   flex-shrink: 0;
   border: none;
   color: #f5f4fa;
-  margin-left: 164px;
+  margin-left: 125px;
 }
 
 .hidden {
@@ -1040,15 +1059,28 @@ input {
 }
 
 .portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 480px) {
+  .portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .portfolio__buttonlist {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
+  justify-content: start;
   gap: 8px;
   margin-bottom: 50px;
+}
+@media screen and (min-width: 480px) {
+  .portfolio__buttonlist {
+    justify-content: center;
+  }
 }
 .portfolio__button {
   color: #212121;
@@ -1078,7 +1110,13 @@ input {
 .portfolio__poster {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   gap: 30px;
+}
+@media screen and (min-width: 480px) {
+  .portfolio__poster {
+    flex-direction: row;
+  }
 }
 .portfolio__posters {
   overflow: hidden;
@@ -1086,7 +1124,7 @@ input {
   position: relative;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: box-shadow, visability;
+  transition-property: box-shadow;
 }
 .portfolio__posters:hover {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -1100,9 +1138,14 @@ input {
   z-index: 2;
 }
 .portfolio__picture {
-  width: 370px;
+  width: 450px;
   height: 294px;
   z-index: 0;
+}
+@media screen and (min-width: 480px) {
+  .portfolio__picture {
+    width: 370px;
+  }
 }
 .portfolio__name {
   color: #212121;
@@ -1133,8 +1176,9 @@ input {
   top: 0;
   left: 0;
   background: rgba(33, 150, 243, 0.9);
-  width: 370px;
+  width: 450px;
   height: 294px;
+  padding: 24px 77px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
@@ -1146,6 +1190,12 @@ input {
   transform: translateY(294px);
   z-index: 1;
 }
+@media screen and (min-width: 480px) {
+  .overlay {
+    width: 370px;
+    padding: 0;
+  }
+}
 .overlay__text {
   color: #fff;
   font-family: Roboto;
@@ -1154,5 +1204,10 @@ input {
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.54px;
-  width: 322px;
+  width: 402px;
+}
+@media screen and (min-width: 480px) {
+  .overlay__text {
+    width: 306px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,16 +1,25 @@
 
 
 .portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+    @media screen and (min-width: 480px) {
+      padding-top: 94px;
+      padding-bottom: 94px;
+      }
   
   
 &__buttonlist {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
+    justify-content: start;
     gap: 8px;
     margin-bottom: 50px;
+    @media screen and (min-width: 480px) {
+      justify-content: center;
+      }
   }
   
 &__button {
@@ -47,7 +56,11 @@
 &__poster {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     gap: 30px;
+    @media screen and (min-width: 480px) {
+      flex-direction: row;
+      }
   }
   
 &__posters {
@@ -56,7 +69,7 @@
     position: relative;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: box-shadow, visability;
+    transition-property: box-shadow;
     
   }
   
@@ -77,9 +90,13 @@
   }
   
 &__picture {
-    width: 370px;
+    width: 450px;
     height: 294px;
     z-index: 0;
+    @media screen and (min-width: 480px) {
+      width: 370px;
+      }
+    
   }
   
 &__name {
@@ -115,8 +132,9 @@
     top: 0;
     left: 0;
     background: rgba(33, 150, 243, 0.9);
-    width: 370px;
+    width: 450px;
     height: 294px;
+    padding: 24px 77px;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
@@ -127,6 +145,10 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(294px);
     z-index: 1;
+    @media screen and (min-width: 480px) {
+      width: 370px;
+      padding: 0;
+      }
    
   
 
@@ -139,7 +161,10 @@
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0.54px;
-    width: 322px;
+    width: 402px;
+    @media screen and (min-width: 480px) {
+      width: 306px;
+      }
   }
   
 }
