@@ -1,7 +1,7 @@
 
 
 .team {
-    padding-top: 94px;
+    padding-top: 60px;
     padding-bottom: 94px;
     background-color: #f5f4fa;
   
@@ -9,6 +9,12 @@
 &__list {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+    @media screen and (min-width: 480px) {
+      flex-direction: row;
+        }
+
   }
   
 &__item {
@@ -19,8 +25,12 @@
   }
   
 &__picture {
-    width: 270px;
-    height: 260px;
+  max-width: 450px;
+max-height: 460px;
+@media screen and (min-width: 480px){
+  max-width: 270px;
+  max-height: 260px;
+}
   }
   
 &__containre {
@@ -29,9 +39,19 @@
   }
   
 &__tytle {
-@extend %tytle-font;
-display: flex;
-justify-content: center;
+  color: $text-color;
+  @extend %tytle-font;
+text-align: center;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.84px;
+  @media screen and (min-width: 480px) {
+font-size: 36px;
+letter-spacing: 1.08px;
+  }
   }
   
 &__teammate {
@@ -55,11 +75,13 @@ justify-content: center;
     padding-bottom: 16px;
   }
   
-&__list {
+&__socials {
     display: flex;
+    justify-content: center;
     gap: 10px;
-    margin-left: 16px;
-    margin-right: 16px;
+    // margin-left: 16px;
+    // margin-right: 16px;
+    color: $text-color;
   }
   
 &__listitem {
