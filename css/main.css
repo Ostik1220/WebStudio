@@ -1138,6 +1138,12 @@ input {
 @media screen and (min-width: 768px) {
   .portfolio__buttonlist {
     justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio__buttonlist {
+    margin-bottom: 50px;
   }
 }
 .portfolio__button {
@@ -1174,7 +1180,6 @@ input {
 @media screen and (min-width: 768px) {
   .portfolio__poster {
     flex-direction: row;
-    flex-wrap: wrap;
   }
 }
 .portfolio__posters {
@@ -1184,6 +1189,11 @@ input {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: box-shadow;
+}
+@media screen and (min-width: 768px) {
+  .portfolio__posters {
+    flex-basis: calc((100% - 60px) / 2);
+  }
 }
 .portfolio__posters:hover {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -1202,6 +1212,11 @@ input {
   z-index: 0;
 }
 @media screen and (min-width: 768px) {
+  .portfolio__picture {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
   .portfolio__picture {
     width: 370px;
   }
@@ -1250,6 +1265,12 @@ input {
   z-index: 1;
 }
 @media screen and (min-width: 768px) {
+  .overlay {
+    width: 354px;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
   .overlay {
     width: 370px;
     padding: 0;

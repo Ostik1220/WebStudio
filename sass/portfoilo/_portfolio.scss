@@ -19,7 +19,11 @@
     margin-bottom: 50px;
     @media screen and (min-width: 768px) {
       justify-content: center;
+      margin-bottom: 30px;
       }
+      @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
+        }
   }
   
 &__button {
@@ -60,7 +64,6 @@
     gap: 30px;
     @media screen and (min-width: 768px) {
       flex-direction: row;
-      flex-wrap: wrap;
       }
   }
   
@@ -71,6 +74,10 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: box-shadow;
+    @media screen and (min-width: 768px) {
+      flex-basis: calc((100% - 60px) / 2);
+      }
+
     
   }
   
@@ -95,6 +102,9 @@
     height: 294px;
     z-index: 0;
     @media screen and (min-width: 768px) {
+      width: 354px;
+      }
+    @media screen and (min-width: 1200px) {
       width: 370px;
       }
     
@@ -147,9 +157,14 @@
     transform: translateY(294px);
     z-index: 1;
     @media screen and (min-width: 768px) {
+      width: 354px;
+      padding: 0;
+      }
+    @media screen and (min-width: 1200px) {
       width: 370px;
       padding: 0;
       }
+
    
   
 
