@@ -292,6 +292,8 @@ input {
   .footer__containre {
     flex-direction: row;
     flex-wrap: wrap;
+    -moz-column-gap: 165px;
+         column-gap: 165px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -379,7 +381,7 @@ input {
   padding: 12px;
   transition-duration: 250ms;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-bottom: 30px;
+  margin-bottom: none;
   transition-property: color;
 }
 .footer__content:hover {
@@ -494,12 +496,15 @@ input {
 @media screen and (min-width: 768px) {
   .invitation__tytle {
     letter-spacing: 1.56px;
-    margin-bottom: 30px;
+    max-width: 360px;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) {
   .invitation__tytle {
     letter-spacing: 2.64px;
+    max-width: 696px;
+    margin: 0 auto;
   }
 }
 .invitation__borders {
@@ -743,6 +748,7 @@ input {
 .team__containre {
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
 }
 .team__tytle {
   color: #212121;
@@ -753,11 +759,17 @@ input {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.84px;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
   .team__tytle {
     font-size: 36px;
     letter-spacing: 1.08px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team__tytle {
+    margin-bottom: 50px;
   }
 }
 .team__teammate {
@@ -777,7 +789,7 @@ input {
   line-height: 1.2;
   letter-spacing: 0.48px;
   margin-top: 10px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .team__socials {
   display: flex;
@@ -792,7 +804,7 @@ input {
   padding: 12px;
   transition-duration: 250ms;
   background-color: white;
-  margin-bottom: 30px;
+  margin-bottom: none;
 }
 .team__logos {
   fill: #afb1b8;
@@ -833,11 +845,13 @@ input {
   font-size: 28px;
   font-weight: 700;
   letter-spacing: 0.84px;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .customers__tytle {
     font-size: 36px;
     letter-spacing: 1.08px;
+    margin-bottom: 50px;
   }
 }
 .customers__list {
@@ -1193,6 +1207,11 @@ input {
 @media screen and (min-width: 768px) {
   .portfolio__posters {
     flex-basis: calc((100% - 60px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio__posters {
+    flex-basis: calc((100% - 60px) / 3);
   }
 }
 .portfolio__posters:hover {

@@ -45,6 +45,8 @@ max-height: 460px;
 &__containre {
     background-color: #fff;
     border-radius: 0px 0px 4px 4px;
+    padding-bottom: 30px;
+    
   }
   
 &__tytle {
@@ -57,10 +59,14 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.84px;
+margin-bottom: 30px;
   @media screen and (min-width: 1200px) {
 font-size: 36px;
 letter-spacing: 1.08px;
   }
+  @media screen and (min-width: 768px) {
+  margin-bottom: 50px;
+      }
   }
   
 &__teammate {
@@ -81,7 +87,7 @@ letter-spacing: 1.08px;
     line-height: 1.2;
     letter-spacing: 0.48px;
     margin-top: 10px;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
   }
   
 &__socials {
@@ -94,7 +100,7 @@ letter-spacing: 1.08px;
   }
   
 &__listitem {
-  @include socials
+  @include socials ($margin: none)
   }
   
 &__logos {
