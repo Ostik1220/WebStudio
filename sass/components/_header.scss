@@ -5,7 +5,7 @@
     justify-content: space-between;
     display: flex;
     align-items: center;
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
       justify-content: center;
     }
   }
@@ -17,7 +17,7 @@
     font-weight: 700;
     line-height: 1.3;
     letter-spacing: 0.78px;
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
       color: $overlay-color;
       font-family: Raleway;
     }
@@ -28,7 +28,7 @@
   }
   &__list {
     display: none;
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
       display: flex;
       margin-left: 88px;
       gap: 51px;
@@ -93,7 +93,7 @@
 
   &__contacts {
     display: none;
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
       display: flex;
       margin-left: 96px;
       gap: 10px;
@@ -170,7 +170,7 @@
     justify-content: center;
     align-items: center;
     border: none;
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
       display: none;
     }
     @media screen and (min-width: 1200px) {
@@ -183,7 +183,7 @@
     width: 40px;
     height: 40px;
     flex-shrink: 0;
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
       display: none;
     }
     @media screen and (min-width: 1200px) {

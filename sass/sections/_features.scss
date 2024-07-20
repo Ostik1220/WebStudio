@@ -2,14 +2,19 @@
 
 .features {
     padding-top: 60px;
-    padding-bottom: 94px;
+    padding-bottom: 60px;
+    @media screen and (min-width: 768px) {
+      padding-top: 94px;
+      padding-bottom: 94px;
+      
+  }
   
   
   &__list {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
       flex-direction: row;
   }
 }
@@ -18,7 +23,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
       align-items: start;
   }
   }
@@ -33,7 +38,7 @@
     background: url(../images/reason1.webp), $button-color;
     background-repeat: no-repeat, repeat;
     background-position: center, center;
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 768px) {
     background-image: url(../images/reason1.webp);
         max-width: 270px;
   }
@@ -49,7 +54,7 @@
     background: url(../images/reason2.webp), $button-color;
     background-repeat: no-repeat, repeat;
     background-position: center, center;
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 768px) {
     background-image: url(../images/reason2.webp);
         max-width: 270px;
 
@@ -66,7 +71,7 @@
     background: url(../images/reason3.webp), $button-color;
     background-repeat: no-repeat, repeat;
     background-position: center, center;
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 768px) {
     background-image: url(../images/reason3.webp);
        max-width: 270px;
   }
@@ -82,7 +87,7 @@
     background: url(../images/reason4.webp), $button-color;
     background-repeat: no-repeat, repeat;
     background-position: center, center;
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 768px) {
     background-image: url(../images/reason4.webp);
         max-width: 270px;
   }
@@ -105,7 +110,7 @@
     line-height: 1.7;
     letter-spacing: 0.42px;
     text-align: start;
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
       text-align: start;
   }
   }
