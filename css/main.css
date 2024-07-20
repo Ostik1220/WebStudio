@@ -92,6 +92,8 @@ input {
   font-weight: 700;
   line-height: 1.3;
   letter-spacing: 0.78px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 @media screen and (min-width: 768px) {
   .header__logo {
@@ -326,7 +328,6 @@ input {
   text-align: center;
   padding-top: 12px;
   width: 206px;
-  height: 80px;
   flex-shrink: 0;
 }
 @media screen and (min-width: 1200px) {
@@ -435,6 +436,7 @@ input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   background: rgba(33, 150, 243, 0);
   outline: none;
+  padding-left: 16px;
 }
 .footer__button {
   width: 200px;
