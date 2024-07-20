@@ -9,7 +9,7 @@
     padding-bottom: 118px;
     background-position: center, center;
     background-repeat: no-repeat, no-repeat;
-    @media screen and (min-width: 768px){
+    @media screen and (max-width: 768px){
       background-position: center, center;
       padding-top: 200px;
       padding-bottom: 200px;
@@ -27,14 +27,22 @@
   letter-spacing: 1.56px;
   font-weight: 900;
   line-height: 1.4;
-  letter-spacing: 2.64px;
+  letter-spacing: 1.56px;
   text-transform: uppercase;
-    @media screen and (min-width: 480px){
-      letter-spacing: 2.64px;
+  text-align: center;
+  display: block;
+    @media screen and (max-width: 768px){
+      letter-spacing: 1.56px;
       // margin-left: 273px;
       // margin-right: 273px;
       margin-bottom: 30px;
     }
+    @media screen and (max-width: 768px){
+      letter-spacing: 2.64px;
+      // margin-left: 273px;
+      // margin-right: 273px;
+    }
+  
   }
   
  &__borders {

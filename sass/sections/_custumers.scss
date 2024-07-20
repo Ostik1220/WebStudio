@@ -1,6 +1,10 @@
 .customers {
-padding-top: 60px;
-padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1200px){
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 
   &__tytle {
     color: $text-color;
@@ -11,7 +15,7 @@ padding-bottom: 94px;
 font-size: 28px;
 font-weight: 700;
 letter-spacing: 0.84px;
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
 font-size: 36px;
 letter-spacing: 1.08px;
         }
@@ -46,7 +50,7 @@ letter-spacing: 1.08px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border;
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
       width: 170px;
       }
   }

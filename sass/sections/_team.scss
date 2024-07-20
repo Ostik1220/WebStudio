@@ -1,9 +1,13 @@
 
 
 .team {
-    padding-top: 60px;
-    padding-bottom: 94px;
     background-color: #f5f4fa;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (min-width: 1200px){
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
   
   
 &__list {
@@ -13,6 +17,7 @@
     gap: 30px;
     @media screen and (min-width: 768px) {
       flex-direction: row;
+      flex-wrap: wrap;
         }
 
   }
@@ -28,6 +33,10 @@
   max-width: 450px;
 max-height: 460px;
 @media screen and (min-width: 768px){
+  max-width: 354px;
+  max-height: 536px;
+}
+@media screen and (min-width: 1200px){
   max-width: 270px;
   max-height: 260px;
 }
@@ -48,7 +57,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.84px;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
 font-size: 36px;
 letter-spacing: 1.08px;
   }

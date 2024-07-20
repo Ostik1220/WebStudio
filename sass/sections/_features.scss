@@ -3,11 +3,11 @@
 .features {
     padding-top: 60px;
     padding-bottom: 60px;
-    @media screen and (min-width: 768px) {
-      padding-top: 94px;
-      padding-bottom: 94px;
-      
-  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+}
   
   
   &__list {
@@ -16,7 +16,12 @@
     gap: 30px;
     @media screen and (min-width: 768px) {
       flex-direction: row;
+      flex-wrap: wrap;
   }
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+    
+}
 }
 
   &__item{
@@ -24,8 +29,12 @@
     flex-direction: column;
     align-items: center;
     @media screen and (min-width: 768px) {
+      max-width: 354px;
       align-items: start;
   }
+  @media screen and (min-width: 1200px) {
+    align-items: start;
+}
   }
 
   &__item:nth-child(1)::before {
@@ -39,9 +48,12 @@
     background-repeat: no-repeat, repeat;
     background-position: center, center;
   @media screen and (min-width: 768px) {
-    background-image: url(../images/reason1.webp);
-        max-width: 270px;
+
   }
+  @media screen and (min-width: 1200px) {
+    background-image: url(../images/reason1.webp);
+    max-width: 270px;
+}
   }
   
   &__item:nth-child(2)::before {
@@ -55,9 +67,11 @@
     background-repeat: no-repeat, repeat;
     background-position: center, center;
   @media screen and (min-width: 768px) {
-    background-image: url(../images/reason2.webp);
-        max-width: 270px;
 
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: url(../images/reason2.webp);
+    max-width: 270px;
   }
   }
   
@@ -72,8 +86,11 @@
     background-repeat: no-repeat, repeat;
     background-position: center, center;
   @media screen and (min-width: 768px) {
+
+  }
+  @media screen and (min-width: 1200px) {
     background-image: url(../images/reason3.webp);
-       max-width: 270px;
+    max-width: 270px;
   }
   }
   
@@ -88,8 +105,11 @@
     background-repeat: no-repeat, repeat;
     background-position: center, center;
   @media screen and (min-width: 768px) {
+
+  }
+  @media screen and (min-width: 1200px) {
     background-image: url(../images/reason4.webp);
-        max-width: 270px;
+    max-width: 270px;
   }
   }
   
@@ -113,5 +133,7 @@
     @media screen and (min-width: 768px) {
       text-align: start;
   }
+
+  
   }
 }
