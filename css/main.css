@@ -470,7 +470,7 @@ input {
   background-position: center, center;
   background-repeat: no-repeat, no-repeat;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1200px) {
   .invitation {
     background-position: center, center;
     padding-top: 200px;
@@ -491,13 +491,13 @@ input {
   text-align: center;
   display: block;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .invitation__tytle {
     letter-spacing: 1.56px;
     margin-bottom: 30px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .invitation__tytle {
     letter-spacing: 2.64px;
   }
@@ -1120,7 +1120,7 @@ input {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -1135,7 +1135,7 @@ input {
   gap: 8px;
   margin-bottom: 50px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .portfolio__buttonlist {
     justify-content: center;
   }
@@ -1171,9 +1171,10 @@ input {
   flex-direction: column;
   gap: 30px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .portfolio__poster {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 .portfolio__posters {
@@ -1200,7 +1201,7 @@ input {
   height: 294px;
   z-index: 0;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .portfolio__picture {
     width: 370px;
   }
@@ -1248,7 +1249,7 @@ input {
   transform: translateY(294px);
   z-index: 1;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .overlay {
     width: 370px;
     padding: 0;
@@ -1264,7 +1265,7 @@ input {
   letter-spacing: 0.54px;
   width: 402px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .overlay__text {
     width: 306px;
   }

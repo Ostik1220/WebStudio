@@ -9,7 +9,7 @@
     padding-bottom: 118px;
     background-position: center, center;
     background-repeat: no-repeat, no-repeat;
-    @media screen and (max-width: 768px){
+    @media screen and (min-width: 1200px){
       background-position: center, center;
       padding-top: 200px;
       padding-bottom: 200px;
@@ -31,13 +31,13 @@
   text-transform: uppercase;
   text-align: center;
   display: block;
-    @media screen and (max-width: 768px){
+    @media screen and (min-width: 768px){
       letter-spacing: 1.56px;
       // margin-left: 273px;
       // margin-right: 273px;
       margin-bottom: 30px;
     }
-    @media screen and (max-width: 768px){
+    @media screen and (min-width: 768px){
       letter-spacing: 2.64px;
       // margin-left: 273px;
       // margin-right: 273px;
