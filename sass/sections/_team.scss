@@ -1,7 +1,8 @@
 
 
 .team {
-    background-color: #f5f4fa;
+    // background-color: #f5f4fa;
+    background-color: #0e0e0d;
     padding-top: 60px;
     padding-bottom: 60px;
     @media screen and (min-width: 1200px){
@@ -43,7 +44,8 @@ max-height: 460px;
   }
   
 &__containre {
-    background-color: #fff;
+    // background-color: #fff;
+    background-color: #000000;
     border-radius: 0px 0px 4px 4px;
     padding-bottom: 30px;
     
@@ -101,7 +103,7 @@ margin-bottom: 50px;
   }
   
 &__listitem {
-  @include socials ($margin: none)
+  @include socials ($margin: none, $background:black)
   }
   
 &__logos {
