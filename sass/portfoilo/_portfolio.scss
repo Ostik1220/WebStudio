@@ -69,6 +69,7 @@
   
 &__posters {
     overflow: hidden;
+    max-width: 100%;
     flex-basis: calc((100% - 60px) / 3);
     position: relative;
     transition-duration: 250ms;

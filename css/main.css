@@ -937,7 +937,7 @@ input {
   width: 100%;
   flex-shrink: 0;
   border-radius: 4px;
-  background: #fff;
+  background: black;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   position: absolute;
   transform: scale(1);
@@ -960,8 +960,8 @@ input {
   width: 30px;
   height: 30px;
   flex-shrink: 0;
-  background-color: #fff;
-  border: rgba(0, 0, 0, 0.1) solid 1px;
+  background: black;
+  border: rgba(255, 255, 255, 0.1) solid 1px;
   border-radius: 50%;
   padding-top: 6px;
   margin-right: 8px;
@@ -977,6 +977,7 @@ input {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
+  fill: grey;
 }
 .modal__button:hover .modal__close {
   fill: #FFCB00;
@@ -985,7 +986,7 @@ input {
   border: #FFCB00 solid 1px;
 }
 .modal__tytle {
-  color: #212121;
+  color: #535252;
   text-align: center;
   font-family: Roboto;
   font-size: 20px;
@@ -1016,7 +1017,7 @@ input {
   height: 40px;
   flex-shrink: 0;
   border-radius: 4px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  border: 1px solid rgb(114, 113, 113);
   padding-bottom: 11px;
   padding-left: 12px;
   display: flex;
@@ -1043,6 +1044,7 @@ input {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border;
+  fill: #535252;
 }
 .modal__inputs {
   outline: none;
@@ -1050,6 +1052,7 @@ input {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border;
+  background: black;
 }
 .modal__special {
   color: rgba(117, 117, 117, 0.5);
@@ -1060,6 +1063,7 @@ input {
   line-height: normal;
   letter-spacing: 0.12px;
   outline: none;
+  background-color: black;
 }
 .modal__inputs:hover {
   border: none;
@@ -1076,12 +1080,12 @@ input {
   margin-top: 10px;
 }
 .modal__borders {
-  color: rgba(117, 117, 117, 0.5);
+  color: rgb(117, 117, 117);
   max-width: 370px;
   height: 120px;
   flex-shrink: 0;
   border-radius: 4px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  border: 1px solid rgb(114, 113, 113);
   outline: none;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1110,7 +1114,7 @@ input {
   margin-top: 4px;
 }
 .modal__agreement {
-  color: #000000;
+  color: #d4d4d4;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -1118,12 +1122,12 @@ input {
   letter-spacing: 0.36px;
 }
 .modal__link {
-  color: #2196f3;
+  color: #FFCB00;
   text-decoration-line: underline;
 }
 .modal__send {
   border-radius: 4px;
-  background: #2196f3;
+  background: #FFCB00;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 200px;
   height: 50px;
@@ -1208,6 +1212,7 @@ input {
 }
 .portfolio__posters {
   overflow: hidden;
+  max-width: 100%;
   flex-basis: calc((100% - 60px) / 3);
   position: relative;
   transition-duration: 250ms;
