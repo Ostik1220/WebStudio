@@ -20,8 +20,6 @@
   display: flex;
   color: $button-color;
   text-align: center;
-  // margin-left: 60px;
-  // margin-right: 60px;
   margin-bottom: 30px;
   font-size: 26px;
   letter-spacing: 1.56px;
@@ -34,12 +32,17 @@
     @media screen and (min-width: 768px){
       letter-spacing: 1.56px;
       max-width: 360px;
-      margin: 0 auto;
+      margin-right: auto;
+      margin-left: auto;
     }
-    @media screen and (min-width: 768px){
-      letter-spacing: 2.64px;
+    @media screen and (min-width: 1200px){
       max-width: 696px;
-      margin: 0 auto;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px; 
+letter-spacing: 2.64px;
+text-transform: uppercase;
     }
   
   }
