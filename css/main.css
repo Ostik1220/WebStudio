@@ -410,6 +410,11 @@ input {
   align-items: center;
   flex-direction: column;
 }
+@media screen and (min-width: 768px) {
+  .footer__third {
+    width: 450px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer__third {
     justify-content: start;
@@ -1241,19 +1246,8 @@ input {
   z-index: 2;
 }
 .portfolio__picture {
-  width: 450px;
   height: 294px;
   z-index: 0;
-}
-@media screen and (min-width: 768px) {
-  .portfolio__picture {
-    width: 354px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .portfolio__picture {
-    width: 370px;
-  }
 }
 .portfolio__name {
   color: #d4d4d4;
@@ -1283,10 +1277,9 @@ input {
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
   background: rgba(243, 205, 33, 0.9);
-  width: 450px;
   height: 294px;
-  padding: 24px 77px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;

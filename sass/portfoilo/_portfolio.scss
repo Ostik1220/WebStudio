@@ -100,15 +100,14 @@
   }
   
 &__picture {
-    width: 450px;
     height: 294px;
     z-index: 0;
-    @media screen and (min-width: 768px) {
-      width: 354px;
-      }
-    @media screen and (min-width: 1200px) {
-      width: 370px;
-      }
+    // @media screen and (min-width: 768px) {
+    //   width: 354px;
+    //   }
+    // @media screen and (min-width: 1200px) {
+    //   width: 370px;
+    //   }
     
   }
   
@@ -144,10 +143,11 @@
     position: absolute;
     top: 0;
     left: 0;
+    right: 0;
     background: rgba(243, 205, 33, 0.9);
-    width: 450px;
+    // width: 450px;
     height: 294px;
-    padding: 24px 77px;
+    // padding: 24px 77px;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
