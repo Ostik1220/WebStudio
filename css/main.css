@@ -491,6 +491,20 @@ input {
   transform: scale(1);
   transition: opacity 250ms cubic-bezier(0.83, -0.08, 0.32, 1);
 }
+.menu__button {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  background: white;
+  border: rgba(255, 255, 255, 0.1) solid 1px;
+  border-radius: 50%;
+  padding-top: 6px;
+  margin-right: 8px;
+  margin-left: 100%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border;
+}
 
 .invitation {
   background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero_background.webp);
