@@ -513,11 +513,9 @@
     </div>
     <!-- мобільне меню -->
     <div class="menu hidden" data-menu>
-      <button data-menu-close type="button" class="menu__button">
-        <svg class="menu__close">
+        <svg class="menu__close" data-menu-close>
           <use href="./images/modal_icons.svg#icon-close"></use>
         </svg>
-      </button>
       <ul class="menu__list">
         <li class="menu__item">
           <a href="./index.html" class="menu__link">Студія</a>
@@ -530,14 +528,29 @@
         </li>
       </ul>
       <ul class="menu__contacts">
+        <li class="menu__content">
+          <a href="tel:+380961111111" class="menu__contact-special"
+            >+38 096 111 11 11</a
+          >
+        </li>
+        <li>
           <a href="mailto:info@devstudio.com" class="menu__contact"
             >info@devstudio.com</a
           >
         </li>
-        <li class="menu__content">
-          <a href="tel:+380961111111" class="menu__contact"
-            >+38 096 111 11 11</a
-          >
+      </ul>
+      <ul class="menu__socials">
+        <li class="menu__social">
+          <a href="https://www.instagram.com/" class="menu__social-contact">Instagram</a>
+        </li>
+        <li class="menu__social">
+          <a href="https://twitter.com/" class="menu__social-contact">Twitter</a>
+        </li>
+        <li class="menu__social">
+          <a href="https://www.facebook.com/" class="menu__social-contact">Facebook</a>
+        </li>
+        <li class="menu__specail">
+          <a href="./images/icons.svg#icon-linkedin" class="menu__social-contact">LinkedIn</a>
         </li>
       </ul>
     </div>
