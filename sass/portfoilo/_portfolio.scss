@@ -66,22 +66,26 @@
       flex-direction: row;
       }
   }
-  
+
+
 &__posters {
     overflow: hidden;
     max-width: 100%;
-    flex-basis: calc((100% - 60px) / 3);
     position: relative;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: box-shadow;
     @media screen and (min-width: 768px) {
-      flex-basis: calc((100% - 60px) / 2);
+      max-width: 354px;
+      flex-basis:auto;
       }
       @media screen and (min-width: 1200px) {
-        flex-basis: calc((100% - 60px) / 3);
+        max-width: 100%;
         }   
   }
+
+
+
   
 &__posters:hover {
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
@@ -94,26 +98,43 @@
   }
   
 &__containre {
-    padding-left: 24px;
+    padding: 20px 24px;
     border: 1px solid #eee;
     z-index: 2;
-  }
+    height: 153px;
+    @media screen and (min-width: 768px) {
+      height: 153px;
+      }
+    }
+
+    &__containre-special{
+      padding: 20px 24px;
+      border: 1px solid #eee;
+      z-index: 2;
+      height: 153px;
+      @media screen and (min-width: 768px) {
+        height: 189px;
+        }
+        @media screen and (min-width: 1200px) {
+          height: 153px;
+          }
+    }
   
 &__picture {
     height: 294px;
     z-index: 0;
-    // @media screen and (min-width: 768px) {
-    //   width: 354px;
-    //   }
-    // @media screen and (min-width: 1200px) {
-    //   width: 370px;
-    //   }
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      }
+    @media screen and (min-width: 1200px) {
+      width: 370px;
+      }
     
   }
   
 &__name {
     color: $text-color;
-    width: 332px;
+    width: 100%;
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
@@ -124,7 +145,7 @@
   
 &__text {
     color: $content-color;
-    width: 332px;
+    width: 100%;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.9;
@@ -159,11 +180,6 @@
     transform: translateY(294px);
     z-index: 1;
     @media screen and (min-width: 768px) {
-      width: 354px;
-      padding: 0;
-      }
-    @media screen and (min-width: 1200px) {
-      width: 370px;
       padding: 0;
       }
 
@@ -184,5 +200,5 @@
       width: 306px;
       }
   }
-  
 }
+  

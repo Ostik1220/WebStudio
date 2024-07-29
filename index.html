@@ -61,7 +61,7 @@
             >
           </li>
         </ul>
-        <button class="header__button" type="submit">
+        <button class="header__button" type="submit" data-menu-open>
           <svg class="header__icon">
             <use href="./images/icons.svg#icon-menu"></use>
           </svg>
@@ -511,10 +511,41 @@
         </form>
       </div>
     </div>
+    <!-- мобільне меню -->
+    <div class="menu hidden" data-menu>
+      <button data-menu-close type="button" class="menu__button">
+        <svg class="menu__close">
+          <use href="./images/modal_icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="./index.html" class="menu__link">Студія</a>
+        </li>
+        <li class="menu__item">
+          <a href="./portfolio.html" class="menu__link">Портфоліо</a>
+        </li>
+        <li class="menu__item">
+          <a href="" class="menu__link">Контакти</a>
+        </li>
+      </ul>
+      <ul class="menu__contacts">
+          <a href="mailto:info@devstudio.com" class="menu__contact"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="menu__content">
+          <a href="tel:+380961111111" class="menu__contact"
+            >+38 096 111 11 11</a
+          >
+        </li>
+      </ul>
+    </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script> 
       AOS.init();
     </script>
+    <script src="./js/menu.js"></script>
     <script src="./js/miodal.js"></script>
   </body>
 </html>
