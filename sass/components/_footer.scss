@@ -151,7 +151,7 @@ justify-content: flex-start;
     flex-direction: column;
     @media screen and (min-width: 1200px) {
       flex-direction: row;
-      width: 570px;
+      max-width: 570px;
     }
   }
 

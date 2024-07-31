@@ -433,7 +433,7 @@ input {
 @media screen and (min-width: 1200px) {
   .footer__form {
     flex-direction: row;
-    width: 570px;
+    max-width: 570px;
   }
 }
 .footer__text {
