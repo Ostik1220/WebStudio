@@ -8,21 +8,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/reset.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"/>
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/main.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-
   </head>
   <body class="body">
     <header class="header">
@@ -71,8 +72,7 @@
       <section class="invitation">
         <div class="container invitation__container">
           <h1 class="invitation__tytle" data-aos="zoom__in">
-            Ефективні рішення для
-             вашого бізнесу
+            Ефективні рішення для вашого бізнесу
           </h1>
           <div class="invitation__borders">
             <button data-modal-open type="button" class="invitation__button">
@@ -82,18 +82,22 @@
         </div>
       </section>
       <!-- features -->
-       <section class="features">
+      <section class="features">
         <div class="container">
-          <ul class="features__list" >
+          <ul class="features__list">
             <li class="features__item">
-              <h4 class="features__tytle" data-aos="zoom-out">УВАГА ДО ДЕТАЛЕЙ</h4>
+              <h4 class="features__tytle" data-aos="zoom-out">
+                УВАГА ДО ДЕТАЛЕЙ
+              </h4>
               <p class="features__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
             <li class="features__item">
-              <h4 class="features__tytle" data-aos="zoom-out">ПУНКТУАЛЬНІСТЬ</h4>
+              <h4 class="features__tytle" data-aos="zoom-out">
+                ПУНКТУАЛЬНІСТЬ
+              </h4>
               <p class="features__text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
@@ -113,42 +117,65 @@
               </p>
             </li>
           </ul>
-        </div> 
-      </section> 
+        </div>
+      </section>
       <!-- Service -->
       <section class="service">
         <div class="container" data-aos="zoom-out">
-          <h2 class="service__tytle" data-aos="fade-up"
-          data-aos-anchor="#example-anchor"
-          data-aos-offset="500"
-          data-aos-duration="500">Чим ми займаємося</h2>
+          <h2
+            class="service__tytle"
+            data-aos="fade-up"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+          >
+            Чим ми займаємося
+          </h2>
           <ul class="service__list">
             <li class="service__listitem">
-              <img
-                src="./images/work1.webp"
-                alt="work with computer"
-                class="service__picture"
-              />
+              <picture class="service__picture">
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/desktop/we-do-first-desktop@1x.webp 1px,
+                 ./images/desktop/we-do-first-desktop@2x.webp 2px"
+                />
+                <img
+                  src="./images/desktop/we-do-first-desktop@1x.webp"
+                  alt="Десктопні додатки"
+                />
+              </picture>
               <div class="service__containre">
                 <p class="service__text">Десктопні додатки</p>
               </div>
             </li>
             <li class="service__listitem">
-              <img
-                src="./images/work2.webp"
-                alt="work with phone"
-                class="service__picture"
-              />
+              <picture class="service__picture">
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/desktop/we-do-second-desktop@1x.webp 1px,
+                 ./images/desktop/we-do-second-desktop@2x.webp 2px"
+                />
+                <img
+                  src="./images/desktop/we-do-second-desktop@1x.webp"
+                  alt="Мобільні додатки"
+                />
+              </picture>
               <div class="service__containre">
                 <p class="service__text">Мобільні додатки</p>
               </div>
             </li>
             <li class="service__listitem">
-              <img
-                src="./images/work3.webp"
-                alt="design work"
-                class="service__picture"
-              />
+              <picture class="service__picture">
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/desktop/we-do-third-desktop@1x.webp 1px,
+                 ./images/desktop/we-do-third-desktop@2x.webp 2px"
+                />
+                <img
+                  src="./images/desktop/we-do-third-desktop@1x.webp"
+                  alt="Дизайнерські рішення"
+                />
+              </picture>
               <div class="service__containre">
                 <p class="service__text">Дизайнерські рішення</p>
               </div>
@@ -157,18 +184,35 @@
         </div>
       </section>
       <section class="team">
-        <div class="container" >
-          <h2 class="team__tytle" data-aos="fade-up"
-          data-aos-anchor="#example-anchor"
-          data-aos-offset="500"
-          data-aos-duration="500">Наша команда</h2>
+        <div class="container">
+          <h2
+            class="team__tytle"
+            data-aos="fade-up"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+          >
+            Наша команда
+          </h2>
           <ul class="team__list">
             <li class="team__item">
-              <img
-                src="./images/agent1.webp"
-                alt="Ігор Дем'яненко"
-                class="team__picture"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/desktop/agent1-desktop@1x.webp 1px,
+                  ./images/desktop/agent2-desktop@1x.webp 2px"
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="./images/mobile/agent1-mobile@1x.webp 1px,
+                  ./images/mobile/agent1-mobile@2x.webp 2px"
+                />
+                <img
+                  src="./images/desktop/agent1-desktop@1x.webp"
+                  alt="Ігор Дем'яненко"
+                  class="team__picture"
+                />
+              </picture>
               <div class="team__containre">
                 <h3 class="team__teammate">Ігор Дем'яненко</h3>
                 <p class="team__text">Product Designer</p>
@@ -205,11 +249,23 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                src="./images/agent2.webp"
-                alt="Ольга Рєпіна"
-                class="team__picture"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/desktop/agent2-desktop@1x.webp 1px,
+                   ./images/desktop/agent2-desktop@1x.webp 2px"
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="./images/mobile/agent2-mobile@1x.webp 1px,
+                  ./images/mobile/agent2-mobile@2x.webp 2px"
+                />
+                <img
+                  src="./images/desktop/agent2-desktop@1x.webp"
+                  alt="Ольга Рєпіна"
+                  class="team__picture"
+                />
+              </picture>
               <div class="team__containre">
                 <h3 class="team__teammate">Ольга Рєпіна</h3>
                 <p class="team__text">Frontend Developer</p>
@@ -246,11 +302,23 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                src="./images/agent3.webp"
-                alt="Микола Тарасов"
-                class="team__picture"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/desktop/agent3-desktop@1x.webp 1px,
+                  ./images/mobile/agent3-mobile@2x.webp 2px"
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="./images/mobile/agent3-mobile@1x.webp 1px,
+                  ./images/mobile/agent3-mobile@2x.webp 2px"
+                />
+                <img
+                  src="./images/desktop/agent3-desktop@1x.webp"
+                  alt="Микола Тарасов"
+                  class="team__picture"
+                />
+              </picture>
               <div class="team__containre">
                 <h3 class="team__teammate">Микола Тарасов</h3>
                 <p class="team__text">Marketing</p>
@@ -287,11 +355,23 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                src="./images/agent4.webp"
-                alt="Михайло Єрмаков"
-                class="team__picture"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/desktop/agent4-desktop@1x.webp 1px,
+                  ./images/mobile/agent4-mobile@2x.webp 2px"
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="./images/mobile/agent4-mobile@1x.webp 1px,
+                  ./images/mobile/agent4-mobile@2x.webp 2px"
+                />
+                <img
+                  src="./images/desktop/agent4-desktop@1x.webp"
+                  alt="Михайло Єрмаков"
+                  class="team__picture"
+                />
+              </picture>
               <div class="team__containre">
                 <h3 class="team__teammate">Михайло Єрмаков</h3>
                 <p class="team__text">UI Designer</p>
@@ -328,14 +408,19 @@
               </div>
             </li>
           </ul>
-        </div> 
-      </section> 
-      <section class="customers"> 
-        <div class="container" >
-          <h2 class="customers__tytle" data-aos="fade-up"
-          data-aos-anchor="#example-anchor"
-          data-aos-offset="500"
-          data-aos-duration="500">Постійні клієнти</h2>
+        </div>
+      </section>
+      <section class="customers">
+        <div class="container">
+          <h2
+            class="customers__tytle"
+            data-aos="fade-up"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+          >
+            Постійні клієнти
+          </h2>
           <ul class="customers__list">
             <li class="customer">
               <div class="customers__border">
@@ -383,7 +468,7 @@
         </div>
       </section>
     </main>
-     <footer class="footer">
+    <footer class="footer">
       <div class="container footer__containre">
         <div class="footer__first">
           <p class="footer__logo" data-aos="zoom-in-up">
@@ -427,8 +512,8 @@
               </a>
             </li>
           </ul>
-        </div>  
-    <!-- третя частина футера -->
+        </div>
+        <!-- третя частина футера -->
         <div class="footer__third">
           <p class="footer__text">Підпишіться на розсилку</p>
           <form class="footer__form">
@@ -447,7 +532,7 @@
           </form>
         </div>
       </div>
-    </footer>  
+    </footer>
     <!-- модальне вікно -->
     <div data-modal class="backdrop hidden">
       <div class="modal">
@@ -515,49 +600,59 @@
         <svg class="menu__close" data-menu-close>
           <use href="./images/modal_icons.svg#icon-close"></use>
         </svg>
-      <ul class="menu__list">
-        <li class="menu__item">
-          <a href="./index.html" class="menu__link">Студія</a>
-        </li>
-        <li class="menu__item">
-          <a href="./portfolio.html" class="menu__link">Портфоліо</a>
-        </li>
-        <li class="menu__item">
-          <a href="" class="menu__link">Контакти</a>
-        </li>
-      </ul>
-    </div>
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="./index.html" class="menu__link">Студія</a>
+          </li>
+          <li class="menu__item">
+            <a href="./portfolio.html" class="menu__link">Портфоліо</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">Контакти</a>
+          </li>
+        </ul>
+      </div>
       <div class="menu__second">
-      <ul class="menu__contacts">
-        <li class="menu__content">
-          <a href="tel:+380961111111" class="menu__contact-special"
-            >+38 096 111 11 11</a
-          >
-        </li>
-        <li>
-          <a href="mailto:info@devstudio.com" class="menu__contact"
-            >info@devstudio.com</a
-          >
-        </li>
-      </ul>
-      <ul class="menu__socials">
-        <li class="menu__social">
-          <a href="https://www.instagram.com/" class="menu__social-contact">Instagram</a>
-        </li>
-        <li class="menu__social">
-          <a href="https://twitter.com/" class="menu__social-contact">Twitter</a>
-        </li>
-        <li class="menu__social">
-          <a href="https://www.facebook.com/" class="menu__social-contact">Facebook</a>
-        </li>
-        <li class="menu__specail">
-          <a href="./images/icons.svg#icon-linkedin" class="menu__social-contact">LinkedIn</a>
-        </li>
-      </ul>
-    </div>
+        <ul class="menu__contacts">
+          <li class="menu__content">
+            <a href="tel:+380961111111" class="menu__contact-special"
+              >+38 096 111 11 11</a
+            >
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="menu__contact"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="menu__socials">
+          <li class="menu__social">
+            <a href="https://www.instagram.com/" class="menu__social-contact"
+              >Instagram</a
+            >
+          </li>
+          <li class="menu__social">
+            <a href="https://twitter.com/" class="menu__social-contact"
+              >Twitter</a
+            >
+          </li>
+          <li class="menu__social">
+            <a href="https://www.facebook.com/" class="menu__social-contact"
+              >Facebook</a
+            >
+          </li>
+          <li class="menu__specail">
+            <a
+              href="./images/icons.svg#icon-linkedin"
+              class="menu__social-contact"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script> 
+    <script>
       AOS.init();
     </script>
     <script src="./js/menu.js"></script>
