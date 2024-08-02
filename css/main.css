@@ -586,7 +586,6 @@ input {
 }
 @media screen and (min-width: 1200px) {
   .invitation {
-    background-position: center, center;
     padding-top: 200px;
     padding-bottom: 200px;
   }
