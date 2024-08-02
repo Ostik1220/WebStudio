@@ -578,16 +578,39 @@ input {
 }
 
 .invitation {
-  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero_background.webp);
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile/hero_background-mobile@1x.webp);
   padding-top: 118px;
   padding-bottom: 118px;
   background-position: center, center;
   background-repeat: no-repeat, no-repeat;
 }
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .invitation {
+    background-image: url(../images/mobile/hero_background-mobile@2x.webp);
+  }
+}
+@media screen and (min-width: 768px) {
+  .invitation {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tablet/hero_background-tablet@1x.webp);
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .invitation {
+    background-image: url(../images/tablet/hero_background-tablet@2x.webp);
+  }
+}
 @media screen and (min-width: 1200px) {
   .invitation {
     padding-top: 200px;
     padding-bottom: 200px;
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/desktop/hero_background-desktop@1x.webp);
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .invitation {
+    background-image: url(../images/desktop/hero_background-desktop@2x.webp);
   }
 }
 .invitation__tytle {
